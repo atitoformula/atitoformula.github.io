@@ -69,6 +69,60 @@
         "Graph3DFlightMode": "Modo vuelo"
     },
     {
+        "GameFireDamage": "¡Blanco impactado! \n Quedan %2$s \n Acaba rápido o se regenerará"
+    },
+    {
+        "GameFire": "Disparar"
+    },
+    {
+        "GameCrash": "¡Colisión! \n Aguanta %s impactos más"
+    },
+    {
+        "GameDestroyed": "Uno menos, quedan %s"
+    },
+    {
+        "GameAward": "Recompensa: %s"
+    },
+    {
+        "GameLevelDone": " ¡Misión Cumplida! \n Recompensa %1$s. \n -%2$s por exceso de tiempo (%4$s m). -%3$s por uso de radar. \n Más puntos = Mayor dificultad y mundos desbloqueados. "
+    },
+    {
+        "GameOver": "Game Over"
+    },
+    {
+        "GameRadarUse": "-%s puntos por usar radar"
+    },
+    {
+        "GameStartAgain": "Juego Nuevo"
+    },
+    {
+        "GameOpenMath": "Ecuaciones"
+    },
+    {
+        "GameEnd": "Finalizar Juego"
+    },
+    {
+        "GameContinue": "Continuar"
+    },
+    {
+        "GameWorldsHeader": "Mundos 3D"
+    },
+    {
+        "GameMenuItem": "Juego 3D"
+    },
+    {
+        "GameFollowTarget": "Persigue y dispara a los OVNIs. \n Destrúyelos a todos."
+    },
+    {
+        "GameAllWorldsCreated": " Los mundos 3D se crean con funciones matemáticas. Puedes crear los tuyos propios. El botón \"Ecuaciones\" te permite ver y copiar las matemáticas de cada mundo. "
+    },
+    {
+        "GameCopyEquations": " Ahora puedes volver y pegar las ecuaciones copiadas en el lienzo. Es mejor limpiar el lienzo antes, para que otras ecuaciones no interfieran. Luego podrás editar las ecuaciones y abrir el gráfico 3D. Allí habrá una opción para iniciar el juego. "
+    },
+    {
+        "GamePointLevel": "Puntos: %1$s, nivel de dificultad %2$s"
+    },
+    {
         "Graph3DSpeed": "Velocidad"
     },
     {
@@ -199,6 +253,9 @@
     },
     {
         "Settings": "Configuración"
+    },
+    {
+        "SettingsAll": "Todas las configuraciones"
     },
     {
         "Help": "Ayuda"
@@ -690,7 +747,7 @@
         "CalcNoMatrix": "No se puede calcular la matriz. Puede referenciar las celdas de la matriz escribiendo el nombre de la matriz con un índice numérico: uno o dos dígitos, según la matriz. "
     },
     {
-        "GraphsNoSystem": "No se puede graficar un sistema de ecuaciones sin condiciones (una sola columna). Al escribir un sistema, el editor sugiere otra variante con la segunda columna como condición. "
+        "GraphsNoSystem": " En gráficos tales sistemas pueden dividirse automáticamente, también es el caso especial de x=, y=, z=. "
     },
     {
         "GraphsRefToItself": "%s se refiere a sí mismo (quizás indirectamente). "
@@ -870,6 +927,9 @@
         "SettingGrid": "Mostrar cuadrícula"
     },
     {
+        "SettingPhysKeyb": "Modo aplicación con uso de teclado físico"
+    },
+    {
         "SettingGridExp": "Mostrar cuadrícula al exportar"
     },
     {
@@ -949,6 +1009,18 @@
     },
     {
         "SettingItalicDef": "Fuente cursiva por defecto"
+    },
+    {
+        "SettingHideButtons": "Ocultar botones para fórmulas"
+    },
+    {
+        "SettingHideCalcValue": "Ocultar valores calculados"
+    },
+    {
+        "SettingHtmlSupport": "Soporte básico de HTML en bloques de texto (etiquetas b, i, etc.)"
+    },
+    {
+        "SettingGameChosenLevel": "Juego: nivel de dificultad"
     },
     {
         "MenuDesktop": "Aplicación web (para escritorio)"

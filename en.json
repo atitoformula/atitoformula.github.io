@@ -66,7 +66,70 @@
         "ImageOnly": "Image Only"
     },
     {
+        "Graph3DNotParamSurf": " If you graph 3D parametric surface (x=,y=,z=), then everything included in graph must be parametric surface. Some graphed function was not recognized as proper parametric surface. "
+    },
+    {
+        "Graph3DNotParamSurf2": " When you graph multiple 3D parametric surfaces (x=,y=,z=), you can do sum of them (each is an equations system). Each term in sum must be single parametric surface. Some are not. However, you can define functions and reference them. "
+    },
+    {
+        "Graph3DSumNotExpanded": " Sum function cannot be processed (expanded). Incorrect parameters or too big range. "
+    },
+    {
         "Graph3DFlightMode": "Flight mode"
+    },
+    {
+        "GameFireDamage": "Target hit! \n %2$s remains \n Finish fast or it restores"
+    },
+    {
+        "GameFire": "Fire"
+    },
+    {
+        "GameCrash": "Crash! \n %s more times can hold"
+    },
+    {
+        "GameDestroyed": "One down, %s to go"
+    },
+    {
+        "GameAward": "Award: %s"
+    },
+    {
+        "GameLevelDone": " All Done! \n Award %1$s. \n -%2$s for longer time (%4$s m). -%3$s for radar. \n More points means higher difficulty and unlocked worlds. "
+    },
+    {
+        "GameOver": "Game Over"
+    },
+    {
+        "GameRadarUse": "-%s points for radar use"
+    },
+    {
+        "GameStartAgain": "New Game"
+    },
+    {
+        "GameOpenMath": "Equations"
+    },
+    {
+        "GameEnd": "Finish Game"
+    },
+    {
+        "GameContinue": "Continue"
+    },
+    {
+        "GameWorldsHeader": "3D Worlds"
+    },
+    {
+        "GameMenuItem": "3D Game"
+    },
+    {
+        "GameFollowTarget": "Chase and shoot UFOs. \n Destroy them all."
+    },
+    {
+        "GameAllWorldsCreated": " All 3D worlds are created with math functions (like 3D graph). You can create your own. \"Equations\" buttons will let you see and copy math for each world. "
+    },
+    {
+        "GameCopyEquations": " You can now go back (finish game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. "
+    },
+    {
+        "GamePointLevel": "Points: %1$s, difficulty level %2$s"
     },
     {
         "Graph3DSpeed": "Speed"
@@ -199,6 +262,9 @@
     },
     {
         "Settings": "Settings"
+    },
+    {
+        "SettingsAll": "All Settings"
     },
     {
         "Help": "Help"
@@ -477,6 +543,12 @@
         "MatrixWrongIndex": " Wrong index (%1$s) of cell for matrix: %2$s (size %3$s). \n For vectors \"11\" is 11th cell, for matrices it's cell (1, 1) (with optional comma). \n You can also use x,y,z as 1,2,3. "
     },
     {
+        "ImportNoImage": "No image was found in clipboard (or it cannot be processed)"
+    },
+    {
+        "ImportNoText": "Empty or not text data in clipboard"
+    },
+    {
         "ImportInternalAsk": "Do you want to append new formulas to the existing ones (with positions lost) or overwrite the existing with full data restored ?"
     },
     {
@@ -690,7 +762,10 @@
         "CalcNoMatrix": "Cannot calculate matrix. You can reference matrix's cells by typing matrix name with numeric index: one or two digits depending on matrix."
     },
     {
-        "GraphsNoSystem": "Cannot graph system of equations without conditions (single column). When you type a system then editor suggests to you another variant with second column as condition."
+        "GraphsNoSystem": " Cannot calculate a system of equations without conditions (single column). In graphs such systems may be auto split, also special case of x=, y=, z=. "
+    },
+    {
+        "GraphsNoSystemXYZ": " Incorrect usage of system with parametric surface (x=,y=,z=). You can only use direct sum of them in a graphed function, without any surrounding math around (e.g. multipliers). Probably used in wrong place or with extra math, which made it processed wrong. "
     },
     {
         "GraphsRefToItself": "%s has reference to itself (maybe indirectly)"
@@ -870,7 +945,31 @@
         "SettingGrid": "Show grid"
     },
     {
+        "SettingPhysKeyb": "App mode with physical keyboard use"
+    },
+    {
+        "SettingLatinModern": "Latin Modern Math font"
+    },
+    {
+        "SettingExportColored": "Image/pdf export: keep colors and style"
+    },
+    {
         "SettingGridExp": "Show grid in exported"
+    },
+    {
+        "SettingLatexRegex": "Latex auto-corrections"
+    },
+    {
+        "SettingLatexRegexDesc": " Makes changes in exported latex based on regular expressions. One instruction per line. \n Examples: \"\\\\mathrm==\\\\textrm\", \"_(\\w+)==_\\\\textrm{$1}\" "
+    },
+    {
+        "SettingHideButtons": "Hide buttons for formula"
+    },
+    {
+        "SettingHideCalcValue": "Hide calculated values"
+    },
+    {
+        "SettingHtmlSupport": "Basic html support in text blocks (tags b, i, etc)"
     },
     {
         "SettingScanClipb": "Auto scan clipboard for formulas to paste"
@@ -946,6 +1045,9 @@
     },
     {
         "SettingDrawBlurSlider": "Drawings: show slider to blur a drawing"
+    },
+    {
+        "SettingGameChosenLevel": "Game: difficulty level"
     },
     {
         "SettingItalicDef": "Italic font by default"

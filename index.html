@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=0,width=device-width,height=device-height">
+    <title>Atito Equation Editor</title>
+	<meta name="description" content="Editor with support of solver, calculation, graphs, export to Latex and image, drawing shapes, math cheatsheets">
+    <link rel="icon" href="ic_launcher-playstore.png">
+	<link rel="manifest" href="manifest.json">
+    <script type="application/javascript" src="formula-wasm.js?fversion=3"> </script>
+    <link type="text/css" rel="stylesheet" href="styles.css?fversion=3">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(98874513, "init", {
+             clickmap:false,
+             trackLinks:false,
+             accurateTrackBounce:true
+        });
+
+         </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/98874513" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <script type="application/javascript" src="util.js?fversion=3"></script>
+    <script type="application/javascript">
+        window.onload = (e) => {
+            try {
+                document.getElementById('loading').value = 10
+            } catch(ex) {
+                console.log(ex)
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+<div class="cont">
+    <canvas id="SkikoTarget" width="1800px" height="800px"></canvas>
+</div>
+<input type="file" id="fileupload" style="display:none"/>
+
+<div id="icon">
+    <img src="ic_launcher-playstore.png" alt="icon"/>
+    <div>Loading...</div>
+    <div><progress id="loading" max="100" value="0"></progress></div>
+</div>
+
+<div id="msg1">
+    Make sure that you use most recent version of browser if the app not starts.
+</div>
+
+<div id="settings" tabindex="1">
+    <div></div>
+    <div style="text-align: center">
+        <button onclick="getElementById('settings').style.display = 'none'; getElementById('SkikoTarget').focus()">
+            Close
+        </button>
+    </div>
+</div>
+
+<div id="editTextDialog">
+    <div>
+        <textarea id="editTextDialogArea" rows="20" cols="60" tabindex="1"></textarea>
+        <div style="text-align: left">
+            <input type="checkbox" id="isIgnor" tabindex="2"/>
+            <span></span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <button id="editTextDialogOK" tabindex="3">
+                OK
+            </button>
+        </div>
+        <div>
+             <button onclick="getElementById('editTextDialog').style.display = 'none'; getElementById('SkikoTarget').focus()" tabindex="4">
+                 Cancel
+             </button>
+        </div>
+    </div>
+</div>
+
+<audio controls style="display: none">
+    <source src="error.wav" type="audio/wav">
+</audio>
+
+</body>
+</html>

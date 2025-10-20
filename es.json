@@ -1,0 +1,1052 @@
+[
+    {
+        "app_name": "Atito Editor de Ecuaciones"
+    },
+    {
+        "Copy": "Copiar"
+    },
+    {
+        "Copy2": "Copiar"
+    },
+    {
+        "CopyArg": "Copiar arg."
+    },
+    {
+        "CopyCoor": "Copiar coordenadas"
+    },
+    {
+        "CopyFormatMsg": " Si necesita copiar y pegar en otra aplicación, el editor usará el formato de texto corto por defecto. En la configuración, puede cambiarlo a LaTeX. Ctrl+Mayús+C creará una imagen. "
+    },
+    {
+        "PasteFormatMsg": " Si necesita pegar fácilmente fórmulas o texto desde otra aplicación, use Ctrl+Mayús+V. El editor intentará determinar el formato de las fórmulas automáticamente (o las insertará como texto común). Como alternativa, utilice la opción de importar en el menú con el formato seleccionado manualmente. El navegador podría solicitar permisos adicionales para acceder a los datos del portapapeles. "
+    },
+    {
+        "Cut": "Cortar"
+    },
+    {
+        "Yes": "Sí"
+    },
+    {
+        "No": "No"
+    },
+    {
+        "Error": "Error"
+    },
+    {
+        "Menu": "Menú"
+    },
+    {
+        "Undo": "Deshacer"
+    },
+    {
+        "Cursor": "Cursor"
+    },
+    {
+        "Shift": "Arriba/Abajo"
+    },
+    {
+        "Backspace": "Retroceso"
+    },
+    {
+        "WrongFormulaButton": "¿Incorrecto?"
+    },
+    {
+        "WrongFormulaMsg": "¿Hay algún error con esta fórmula (o con el resultado de búsqueda mostrado)? ¿Debería comprobarse? "
+    },
+    {
+        "WrongFormulaEmailMsg": "La fórmula (resultado) se ha marcado como incorrecta. \n También puede enviar un correo electrónico con más detalles."
+    },
+    {
+        "LockedColors": "Colores bloqueados"
+    },
+    {
+        "GraphWaves": "Modo Ondas"
+    },
+    {
+        "ImageOnly": "Solo imagen"
+    },
+    {
+        "Graph3DFlightMode": "Modo vuelo"
+    },
+    {
+        "Graph3DSpeed": "Velocidad"
+    },
+    {
+        "ChangedBrightness": "Cambiando brillo"
+    },
+    {
+        "ChangedBrightnessExplain": "Ahora la función principal seleccionada define el color de azul a rojo. La segunda función define el brillo."
+    },
+    {
+        "GraphsWavesExplain": "El modo Ondas (alternativo) le permite ver mejor la dirección y la velocidad de cambio del valor de la función, pero no podrá ver por color dónde es mayor o menor."
+    },
+    {
+        "ZeroDetMultSol": "Un sistema de ecuaciones lineales tiene una o más soluciones \n (para %s). \n Hay ecuaciones linealmente dependientes que se pueden eliminar para encontrar la fórmula de la solución."
+    },
+    {
+        "ZeroDetNoSol": "El sistema de ecuaciones lineales no tiene solución \n (para %s)"
+    },
+    {
+        "CouldNotAnalyze": "Matemáticas confusas en algunas fórmulas"
+    },
+    {
+        "IsEven": "es par"
+    },
+    {
+        "IsOdd": "es impar"
+    },
+    {
+        "Redo": "Rehacer"
+    },
+    {
+        "Extract": "Extraer"
+    },
+    {
+        "Paste": "Pegar"
+    },
+    {
+        "BiggerRange": "Rango mayor"
+    },
+    {
+        "SmallerRange": "Rango menor"
+    },
+    {
+        "Above": "arriba"
+    },
+    {
+        "Below": "abajo"
+    },
+    {
+        "Column": "columna"
+    },
+    {
+        "Row": "fila"
+    },
+    {
+        "Left": "en Izquierda"
+    },
+    {
+        "Right": "a la derecha"
+    },
+    {
+        "NewFormula": "Nueva fórmula"
+    },
+    {
+        "Line": "línea %s"
+    },
+    {
+        "LimitsExceededMsg": "Se ha excedido el límite de tamaño de la fórmula, su número total, etc."
+    },
+    {
+        "Search": "Buscar"
+    },
+    {
+        "NewFormulaMsg": "También puede hacer doble clic en cualquier lugar para crear una nueva fórmula"
+    },
+    {
+        "VectorSym": " La flecha en la parte superior solo tiene fines visuales: el editor no la procesa como un vector. Necesitaría crear una fórmula y definirla utilizando el valor real del vector (matriz). La flecha es opcional. \n El mismo símbolo, con o sin flecha, se procesa como si fuera diferente. "
+    },
+    {
+        "SearchMsg": " Puede iniciar la búsqueda seleccionando cualquier parte de la fórmula sin el botón de búsqueda. Simplemente selecciona la fórmula completa que edite. Los resultados son todas las transformaciones posibles, incluidas las soluciones de ejercicios matemáticos. Toca o haz clic para insertar el resultado. El botón \"f\" sirve para ver más información sobre la fórmula. "
+    },
+    {
+        "LimitApprox": "Estimación aproximada del límite"
+    },
+    {
+        "LimitLopital": "Regla de L'Hôpital"
+    },
+    {
+        "LimitCalc": "Límite calculado"
+    },
+    {
+        "NothingFound": "Sin sugerencias"
+    },
+    {
+        "GraphSurInfoMsgMax": "MÁX (rojo) = %s"
+    },
+    {
+        "GraphSurInfoMsgMaxLocked": "MÁX = %1$s (rojo ⩾ %2$s)"
+    },
+    {
+        "GraphSurInfoMsgMin": "MÍN (azul) = %s"
+    },
+    {
+        "GraphSurInfoMsgMinLocked": "MÍN = %1$s (azul ⩽ %2$s)"
+    },
+    {
+        "Exit": "Salir"
+    },
+    {
+        "Fullscreen": "Pantalla completa"
+    },
+    {
+        "On": "Activado"
+    },
+    {
+        "Off": "Desactivado"
+    },
+    {
+        "SoundOn": "Activar sonido"
+    },
+    {
+        "SoundOff": "Apagar sonido"
+    },
+    {
+        "Clear": "Borrar"
+    },
+    {
+        "ClearPrompt": "¿Eliminar todas las fórmulas?"
+    },
+    {
+        "Settings": "Configuración"
+    },
+    {
+        "Help": "Ayuda"
+    },
+    {
+        "HelpVideo": "Guías en vídeo (YouTube)"
+    },
+    {
+        "HelpVideoMl": "<![CDATA[Guías en vídeo <font color=\"%s\"><small><small><br/><b>YouTube</b></small></small></font>]]>"
+    },
+    {
+        "ErrorTmpt": "ERROR\n\n %s"
+    },
+    {
+        "UnknownError": "No se pueden procesar los datos proporcionados"
+    },
+    {
+        "UnknownErrorWhenSave": "No se pudieron generar ni guardar los datos"
+    },
+    {
+        "WhilePrepGraphs": "No se puede dibujar el gráfico:\n %s"
+    },
+    {
+        "WhilePrepGraphsEx": "(%1$s fórmulas seleccionadas) \n %2$s"
+    },
+    {
+        "UnknownErrorGr": "Error desconocido al preparar gráficos"
+    },
+    {
+        "ExpImExplain": "Tenga en cuenta que el editor procesa los símbolos 'e' e 'i' como constantes: función exponencial y unidad imaginaria, respectivamente.\n Esto se puede cambiar en la configuración."
+    },
+    {
+        "MarkedForGraph": "Esta fórmula ya está seleccionada para el gráfico. \n Pulse el botón \"Gráficos\" en la parte superior para abrir los gráficos."
+    },
+    {
+        "NoVars": "No se encontraron variables. El gráfico mostrará valores constantes. Quizás deba eliminar algunas fórmulas como \"x=1\"."
+    },
+    {
+        "NoFormulaForIE": "No puede tener una fórmula para %s porque es una constante. Esto se puede desactivar en la configuración."
+    },
+    {
+        "LabelFuncConflict": "%s no se puede usar como función y como variable habitual al mismo tiempo."
+    },
+    {
+        "TwoVarGraphExplain": " El color corresponde al valor de la función y se distribuye entre azul (mín.) y rojo (máx.). El máximo/mín. se calcula solo sobre el área mostrada y cambiará al mover el área, por lo que los colores también cambiarán, siempre de azul a rojo. \n Para bloquear/fijar los colores, pulse el botón \"Colores bloqueados\" después de encontrar un área con valores máximos/mín. \n También debería probar el modo \"Ondas\". \n La calidad del gráfico mostrado mejorará gradualmente al dejar de tocar la pantalla. "
+    },
+    {
+        "TwoVarGraph": "Gráfico de superficie"
+    },
+    {
+        "TooManyVarsTwoVar": "En el caso de dos variables, también puede ver una representación coloreada de la superficie (una alternativa más sencilla al gráfico 3D) si es lo que necesita ahora."
+    },
+    {
+        "DefXVar": "x,y son variables predeterminadas en los gráficos, todas las demás son parámetros \n (se pueden cambiar en la configuración)"
+    },
+    {
+        "FormulaForXWarning": " Tienes la fórmula x=… \n En este caso, «x» no puede ser la variable principal del gráfico. Quizás no sea lo que buscas. \n Para evitar este mensaje, desactiva «x» como variable predeterminada en la configuración."
+    },
+    {
+        "TooManyVars": " Tiene %1$s variables con valores no especificados:\n %2$s.\n Para los gráficos habituales, debe dejar solo una variable; las demás deben tener fórmulas como \"%3$s=1\" con un valor inicial predeterminado (o una referencia similar). El editor escanea todas las referencias entre fórmulas. "
+    },
+    {
+        "ParsedSuccess": "Analizado en %s fórmulas"
+    },
+    {
+        "AddedFormulas": "Se han añadido %s fórmulas/dibujos"
+    },
+    {
+        "TextImportQuestion": "Tiene texto entre las fórmulas. ¿Desea importarlo también?"
+    },
+    {
+        "MatricesCalc": "Cálculos de matrices (funciones expandidas)"
+    },
+    {
+        "ExpandedFuncs": "Funciones expandidas (matrices)"
+    },
+    {
+        "PolynomSolv": "Resolviendo ecuación polinómica"
+    },
+    {
+        "CrossProdNotSupp": "Para el producto vectorial de vectores, utilice la función \"cross\" con dos parámetros. El símbolo de cruz generalmente se ignora. "
+    },
+    {
+        "NotFoundIntegral": " No se pudo encontrar la antiderivada de esta integral. El editor no resuelve todas las integrales, que aún pueden resolverse con aplicaciones más especializadas. Algunos cambios en la fórmula ayudan. "
+    },
+    {
+        "ChangeInPlace": "Realizar el cambio \n donde estaba la selección"
+    },
+    {
+        "NotAppend": "No añadir, sino añadir nuevo"
+    },
+    {
+        "ChangeInPlaceByDefault": "Cambiar la selección por defecto"
+    },
+    {
+        "ChangeInPlaceUserMsg": " Al elegir un reemplazo sugerido, el editor puede insertarlo donde estaba la selección \n o puede duplicar la fórmula completa que edita y realizar el reemplazo en la nueva fórmula (la anterior permanece igual). También aparecerá un botón para cambiar la acción predeterminada inicial. "
+    },
+    {
+        "MakeNewFormula": "Añadir a la anterior"
+    },
+    {
+        "MakeNewFormulaByDefault": "Añadir por defecto"
+    },
+    {
+        "SolvingLinearSystem": "Resolver sistemas de ecuaciones lineales"
+    },
+    {
+        "Graphs": "Gráficos"
+    },
+    {
+        "Graph": "Gráfico"
+    },
+    {
+        "NoCursorMsg": " Pulsar dos veces para crear una nueva fórmula.\n Pulsar la fórmula para colocar el cursor. Ampliar con dos dedos.\n Deslizar o mantener pulsado para seleccionar una parte de la fórmula (inicia la búsqueda).\n Ver videoguías en Menú -> Ayuda. "
+    },
+    {
+        "ButTypesMsg": " Hay dos tipos de botones que aparecen a la izquierda y a la derecha: \n Uno es una acción de edición simple, otro es el resultado de un análisis y una búsqueda más exhaustivos en fórmulas (se muestra solo a la derecha). \n Se puede desplazar por todas las listas cuando hay demasiados botones. "
+    },
+    {
+        "VertScreenMsg": " Este editor requiere que mantengas el dispositivo horizontalmente (prueba a girarlo). "
+    },
+    {
+        "AutocomplMsg": " El editor siempre revisa lo que acabas de escribir (o seleccionar) y sugiere más opciones que aparecen a la izquierda y a la derecha para corregir lo escrito anteriormente. \n Escribe la primera letra de lo que necesitas o un símbolo similar. \n Para símbolos poco comunes, escribe su nombre completo en LaTeX. "
+    },
+    {
+        "FastAccessMsg": " Entre todas las fórmulas que has escrito, \n el editor busca símbolos que son difíciles de volver a escribir: \n Se agregan en la esquina inferior derecha para un acceso rápido. "
+    },
+    {
+        "SelVarMsg": " Seleccione una sola variable \n y el editor sugerirá más operaciones relacionadas: \n sustitución, resolución de ecuaciones, etc. "
+    },
+    {
+        "RecursiveCalcMsg": " Durante el cálculo de valores o la representación gráfica, el editor examina todas las fórmulas conectadas, como a=b, b=c, c=5. También puede usar sus propias funciones. Con matrices y vectores, puede hacer lo mismo (no solo cálculos numéricos, sino también la transformación de expresiones arbitrarias). "
+    },
+    {
+        "UnicodeMsg": " Puede introducir cualquier símbolo escribiendo su número hexadecimal Unicode. \n Por ejemplo, escriba \"2295\" y aparecerá el botón con el símbolo ⊕. "
+    },
+    {
+        "WebappMsg": " Este editor está disponible como aplicación web que puede ejecutarse en la mayoría de los navegadores. Está diseñado para ordenadores de escritorio (PC/portátiles) con teclado físico. Ve a [Menú -> Ayuda] para obtener más información. "
+    },
+    {
+        "SolverMsg": " Si necesitas resolver una tarea matemática compleja, el editor puede sugerir la solución final o solo el siguiente paso. Es posible que tengas que elegir tú mismo una secuencia de pasos para llegar a la solución final. "
+    },
+    {
+        "SelMoveMsg": " En muchos casos, puedes mover fácilmente lo seleccionado a otra parte de la fórmula: cambiando el orden de los términos o multiplicadores, entre fracciones, incluso cuando están separados por el símbolo igual. El editor solo permite movimientos matemáticamente correctos. "
+    },
+    {
+        "TaskExplainMsg": " La mayoría de las tareas se pueden resolver sin edición manual: Como paso, solo necesitas seleccionar una parte de la fórmula y elegir una sugerencia que aparece a la derecha. El orden de los términos y multiplicadores se puede cambiar simplemente arrastrando uno seleccionado. En raras ocasiones, podrías necesitar la edición habitual. De todos modos, eres libre de hacer lo que quieras. \n También puedes marcar una tarea como completada tú mismo. "
+    },
+    {
+        "Split": "Dividir"
+    },
+    {
+        "MakeSystem": "Hacer sistema"
+    },
+    {
+        "UnspecifiedContraints": "Pueden aplicarse restricciones (sin especificar)"
+    },
+    {
+        "UnspecifiedContraints2": "Algunas restricciones no están listadas"
+    },
+    {
+        "Import": "Importar"
+    },
+    {
+        "Export": "Exportar"
+    },
+    {
+        "SimplifyTo": "Simplificar a"
+    },
+    {
+        "MarkComplete": "Completar"
+    },
+    {
+        "Reset": "Restablecer"
+    },
+    {
+        "Tasks": "Tareas"
+    },
+    {
+        "Task": "Tarea"
+    },
+    {
+        "TasksRestrictionsMsg": " No es necesario que la solución sea correcta para todos los valores posibles. \n Puede asumir cualquier intervalo estrecho de valores donde todos los pasos sean correctos."
+    },
+    {
+        "Dup": "Dupl."
+    },
+    {
+        "ToBack": "Atrás"
+    },
+    {
+        "Searching": "Buscando..."
+    },
+    {
+        "ReplaceAll": "Reemplazar todo"
+    },
+    {
+        "Substitutions": "Sustituciones:"
+    },
+    {
+        "NoFormula": "No hay una sola fórmula"
+    },
+    {
+        "Constraints": "Posibles restricciones:"
+    },
+    {
+        "SecondCursor": "Edición en dos lugares a la vez.\n Escriba el nombre de una variable."
+    },
+    {
+        "Cancel": "Cancelar"
+    },
+    {
+        "IgnoredMath": "Comentario (no variable, ignorado en matemáticas)"
+    },
+    {
+        "CannotMove": " ⛔ No se puede mover lo seleccionado aquí"
+    },
+    {
+        "SumOfFuncs": "Regla de suma"
+    },
+    {
+        "SumOfFuncsE": "Antiderivada (solución de la integral indefinida)"
+    },
+    {
+        "SimplOnesSolved": " y otras soluciones"
+    },
+    {
+        "MultDeriv": "Aplicación de múltiples derivadas"
+    },
+    {
+        "DerivFound": "Derivada"
+    },
+    {
+        "Exponentiation": "Reglas de exponenciación"
+    },
+    {
+        "DeleteSel": "Eliminar"
+    },
+    {
+        "Group": "Agrupar"
+    },
+    {
+        "Ungroup": "Desagrupar"
+    },
+    {
+        "SameWidth": "Mismo grosor"
+    },
+    {
+        "Transpose": "Transpuesto"
+    },
+    {
+        "PartialMatch": "A continuación, solo se muestran con coincidencia parcial"
+    },
+    {
+        "Close": "Cerrar"
+    },
+    {
+        "ExportedNum": "Exportado correctamente %1$s de %2$s"
+    },
+    {
+        "UserFuncExplainMsg": " Al escribir `\"f()\", significa `\"f * ()\": no `\"f\" como función. Tenga en cuenta que aparecerá un botón para crear una función, incluso al seleccionar texto con paréntesis vacíos. Todas las funciones tienen una fuente y un color diferentes en comparación con las variables. "
+    },
+    {
+        "MatrixCannotMult": "No se pueden multiplicar las matrices %1$s y %2$s"
+    },
+    {
+        "MatrixCannotInverse": "No se puede construir la inversa de la matriz no cuadrada %s"
+    },
+    {
+        "MatrixCannotAdd": "No se pueden sumar las matrices %1$s y %2$s"
+    },
+    {
+        "MatrixCannotPowerBad": "No se puede elevar una matriz a una potencia no entera ni variable"
+    },
+    {
+        "MatrixWrongIndex": " Índice (%1$s) incorrecto de la celda de la matriz: %2$s (tamaño %3$s). Para vectores, \"11\" es la undécima celda; para matrices, es la celda (1, 1) (con coma opcional). También se pueden usar x, y, z como 1, 2, 3. "
+    },
+    {
+        "ImportInternalAsk": "¿Desea añadir nuevas fórmulas a las existentes (con las posiciones perdidas) o sobrescribir las existentes restaurando todos los datos?"
+    },
+    {
+        "ImportInternalAppend": "Añadir"
+    },
+    {
+        "ImportInternalOverwrite": "Sobrescribir"
+    },
+    {
+        "NoFormulas": "No hay fórmulas para exportar"
+    },
+    {
+        "PdfExportNote": " Tenga en cuenta que la escala del texto en PDF se define inicialmente por la distancia entre los extremos izquierdo y derecho de las fórmulas exportadas. \n A mayor disposición de fórmulas, menor tamaño del texto. \n En la configuración, puede cambiar la escala para que todo sea más pequeño. "
+    },
+    {
+        "MatrixCannotPowerLimit": "Restringido para elevar una matriz a una potencia mayor que %s (el límite depende de la matriz)"
+    },
+    {
+        "MatrixCannotPowerLimitEx": "Restringido para elevar una matriz a una potencia mayor que %s (el límite depende de la matriz). El límite es mayor al seleccionar esa parte específica de la expresión. "
+    },
+    {
+        "MainPanelBottomMsg": " Escribe la primera letra del símbolo que necesitas o un símbolo similar. Para símbolos poco comunes, escribe su nombre completo en LaTeX. Para escribir texto normal, usa el botón \"Texto\". "
+    },
+    {
+        "MatrixCannotPowerNotSq": "No se puede elevar a la potencia una matriz no cuadrada %s."
+    },
+    {
+        "MatrixCrossProd": "Debe haber dos argumentos (vectores de tamaño 3) en la función cruzada."
+    },
+    {
+        "MatrixDetLimit": "Límite de tamaño de matriz para la función determinante durante los cálculos en segundo plano. Seleccione la función 'det' explícitamente como solución alternativa."
+    },
+    {
+        "MatrixRank": "La función \"rank\" requiere una matriz completamente numérica como argumento."
+    },
+    {
+        "MatrixNorm": "La norma matricial solo se admite para vectores (como la norma euclidiana). La función de valor absoluto se procesa como norma si el argumento es una matriz."
+    },
+    {
+        "MatrixFuncArg": "La función %s no puede procesar una matriz como argumento. \n Si desea aplicar la función a cada celda, seleccione esta función."
+    },
+    {
+        "MatrixZeroDet": "No se puede construir la inversa de la matriz. El determinante es cero."
+    },
+    {
+        "AsFunction": "Función"
+    },
+    {
+        "EnterText": "Texto"
+    },
+    {
+        "Space": "Espacio"
+    },
+    {
+        "Graph3DParamSurfaceMsg": " Al graficar las ecuaciones x=…,y=…,z=…, se abre el gráfico 3D para la superficie paramétrica. El intervalo de cambio para cada variable (parámetro) siempre va de 0 a 1. Se pueden agregar fórmulas como u=2*pi*u1; entonces u1 se convierte en variable y u va de 0 a 2*pi. "
+    },
+    {
+        "NoEditIfRotated": "No se permite editar si se rota"
+    },
+    {
+        "DrawingEditPathMsg": " El botón con la etiqueta 'd4' creará una polilínea con 4 puntos (correspondientes a las esquinas de la curva). El botón con la etiqueta \"r4\" cambiará el radio de redondeo de cada esquina de la polilínea. Con estos botones, puede reducir el número de puntos de la curva, suavizarla y facilitar su corrección. "
+    },
+    {
+        "DrawingPostCreateMsg": "Toque/haga clic para editar el dibujo"
+    },
+    {
+        "DrawingZIndexMsg": "Movido al fondo (posición -1)"
+    },
+    {
+        "DrawingGroupMsg": "Agrupar significa que si intenta seleccionar un solo dibujo, todos los demás del grupo se seleccionarán automáticamente."
+    },
+    {
+        "Draw": "Dibujo"
+    },
+    {
+        "TextCombineMsg": " Esto crea un único bloque de texto a partir de varios símbolos, una alternativa a la introducción de texto mediante un cuadro de diálogo. En matemáticas, será una sola variable con un nombre largo. "
+    },
+    {
+        "MultipleIntegrals": " Para hallar la antiderivada de integrales indefinidas dobles y triples, la variable debe ser la misma: se aplicará la integración repetida. \n De lo contrarioLas integrales deben ser definidas y las variables deben ser diferentes. "
+    },
+    {
+        "MalformedIntegral": "La integral está mal formada. Debe contener una diferencial en cada término. Quizás se deba a la falta de paréntesis."
+    },
+    {
+        "MalformedIntegralNested": "La integral probablemente esté mal formada. Los paréntesis de cada integral deben contener directamente una diferencial (d) y no dentro de otra integral anidada."
+    },
+    {
+        "MalformedIntegral3": " Para calcular varias integrales definidas, se deben usar variables diferentes. La diferencial (d) debe contener una sola variable. "
+    },
+    {
+        "SelInsideIntergal": "Para la resolución de integrales habituales, debe seleccionar la integral completa con el símbolo de integral al principio (y solo una integral)."
+    },
+    {
+        "EditUsualText": "Editar texto"
+    },
+    {
+        "EditUsualTextMsg": " Esto es para escribir texto con el teclado habitual: \n un comentario (ignorado en matemáticas) o el nombre largo de la variable. \n Este texto no se procesará como fórmula. "
+    },
+    {
+        "InverseFuncMsg": "Al escribir sin^(-1), significa 1/sin. \n Para la función inversa, use \"arcsin\"."
+    },
+    {
+        "FromAnotherFormula": "Sustitución de otra fórmula"
+    },
+    {
+        "FromAnotherFormulaMult": "Sustituciones (%s) de otras fórmulas"
+    },
+    {
+        "FromAnotherFormulaAll": "Sustituir todos los %s en esta fórmula por"
+    },
+    {
+        "FormulaForLabel": "Se movió y agrupó %s a la izquierda"
+    },
+    {
+        "FormulaForLabelSolved": "Se resolvió para %s"
+    },
+    {
+        "Factoring": "Factorización"
+    },
+    {
+        "CalcDefIntValue": "Aprox. Valor de la integral"
+    },
+    {
+        "CalcComplex": "Número complejo calculado"
+    },
+    {
+        "Calculated": "Calculado"
+    },
+    {
+        "CalculatedCut": "Calculado (precisión reducida)"
+    },
+    {
+        "Extracted": "Parte común extraída"
+    },
+    {
+        "Extracted2": "Parte común parcial extraída"
+    },
+    {
+        "RandomExtracted": "Extracción aleatoria"
+    },
+    {
+        "CubicRoot": "Par de raíces de la ecuación cúbica %s"
+    },
+    {
+        "FExtractconst": "Constante supuesta extraída"
+    },
+    {
+        "FDerivOfProduct": "Derivada del producto"
+    },
+    {
+        "FDerivQuotient": "Regla del cociente (derivada de la división)"
+    },
+    {
+        "FIntegrationByParts": "Integración por partes"
+    },
+    {
+        "FOpenParenth": "Abierto todo Paréntesis"
+    },
+    {
+        "FOpenParenthSingle": "Primer paréntesis abierto"
+    },
+    {
+        "FracDecomp": "Descomposición en fracciones parciales (solo denominador)"
+    },
+    {
+        "FOpenParenth2": "Algunos paréntesis abiertos"
+    },
+    {
+        "FCmplxNumberMult": "Multiplicación de números complejos"
+    },
+    {
+        "FCmplxNumberDevide": "División de números complejos"
+    },
+    {
+        "FCmplxNumberEuler": "Fórmula de Euler"
+    },
+    {
+        "FKnownDeriv": "A partir de la fórmula de la derivada conocida"
+    },
+    {
+        "FKnownIntegr": "A partir de la fórmula de la antiderivada conocida"
+    },
+    {
+        "FKnownIntegrExtra": " con constante añadida"
+    },
+    {
+        "FKnownWithSubst": "Sustitución u=ax+b aplicada"
+    },
+    {
+        "FKnownIntegr2": "Se encontró la antiderivada y se movió dentro de la diferencial"
+    },
+    {
+        "DiffEqSolving": "Fórmula básica de la solución de la ecuación diferencial"
+    },
+    {
+        "DiffEqSolving2": "Solución de la ecuación diferencial (basada en la fórmula a continuación)"
+    },
+    {
+        "MultSymMsg": "El símbolo de multiplicación solo se necesita entre números. \n Pulsa el botón dos veces para insertar un punto."
+    },
+    {
+        "GoogleSearchMsg": " Google puede resolver muchos problemas matemáticos o dirigirte a otros sitios de resolución. El editor realizará una solicitud de búsqueda a partir de lo que hayas seleccionado y abrirá el navegador. Prueba diferentes sitios; no todos pueden comprender diversas solicitudes. "
+    },
+    {
+        "DarkBright": " (de oscuro a brillante)"
+    },
+    {
+        "BlueRed": " (de azul a rojo)"
+    },
+    {
+        "CalcNoMatrix": "No se puede calcular la matriz. Puede referenciar las celdas de la matriz escribiendo el nombre de la matriz con un índice numérico: uno o dos dígitos, según la matriz. "
+    },
+    {
+        "GraphsNoSystem": "No se puede graficar un sistema de ecuaciones sin condiciones (una sola columna). Al escribir un sistema, el editor sugiere otra variante con la segunda columna como condición. "
+    },
+    {
+        "GraphsRefToItself": "%s se refiere a sí mismo (quizás indirectamente). "
+    },
+    {
+        "GraphsNoFormula": "No se ha seleccionado ninguna fórmula para el gráfico. Cada fórmula tiene el botón \"Gráfico\" a la izquierda al editarla. "
+    },
+    {
+        "DoubleFormula": "Tiene más de una fórmula para %s. Debe ser uno."
+    },
+    {
+        "GraphsCannotCalcFuncs": "No se pueden calcular las funciones %s"
+    },
+    {
+        "GraphsReqLabelOnLeft": "Una fórmula para graficar solo puede tener una etiqueta (p. ej., f= o f(x)=) a la izquierda del signo igual (si está presente). YSe pueden graficar desigualdades que produzcan valores 0 o 1."
+    },
+    {
+        "GraphsDurCalc": "Durante el cálculo de %s"
+    },
+    {
+        "GraphsIntegralError": "Solo se pueden graficar o calcular integrales definidas. \n Solo el límite superior puede ser variable durante la graficación (debe ser diferente de la variable de integración)."
+    },
+    {
+        "GraphsIntegralVarError": "No se admite el grafo cuando se hace referencia a la variable gráfica (%s) dentro de la integral; solo puede serlo como límite superior."
+    },
+    {
+        "GraphsCmplFunc": " Si se encuentra 'i' y una función produce números complejos, se divide en dos funciones: valor absoluto y argumento. El valor absoluto definirá el brillo. El argumento, el color/tono (en el gráfico coloreado). El borde rojo/azul corresponde a π/-π. "
+    },
+    {
+        "GraphsReqSingleComplex": " Solo se puede graficar una función compleja. Alternativamente, se pueden usar las funciones Re, Im, arg, |x| para convertir números complejos en reales (para todas las funciones que producen números no reales). "
+    },
+    {
+        "CalcNoInt": "Solo se pueden calcular integrales definidas"
+    },
+    {
+        "CalcUnsupFunc": "No se puede calcular la función %s"
+    },
+    {
+        "CalcSumFuncError": "No se puede calcular la función %s; probablemente no se reconocen los límites (p. ej., i = 0 por debajo y 5 por encima)"
+    },
+    {
+        "CalcSumRangeLimit": "Rango demasiado grande para calcular %s"
+    },
+    {
+        "CalcSumRangeLimit2": "Para gráficos, la función %1$s solo se puede calcular con un rango inferior a %2$s"
+    },
+    {
+        "CalcWrongArgNum": "Se esperaban %1$s argumentos para la función %2$s, pero se proporciona %3$s"
+    },
+    {
+        "WrongNumArgs": "Número incorrecto de argumentos para la función %s"
+    },
+    {
+        "CalcNoComplex": "No se puede calcular la función %1$s cuando %2$s es complejo Número"
+    },
+    {
+        "CalcNoComplex2": "Número complejo para %s dentro de una función que solo puede procesar números reales"
+    },
+    {
+        "CalcFactNotPos": "El factorial se calcula solo para números enteros no negativos"
+    },
+    {
+        "CalcFactTooBig": "No se puede calcular el factorial para un número demasiado grande"
+    },
+    {
+        "ParseSingleEquals": "No se puede tener más de un signo igual (o similar) en una sola fórmula"
+    },
+    {
+        "ParseUnclosedPar": "Paréntesis sin cerrar después de %s"
+    },
+    {
+        "ParseNumArgs": "Número incorrecto de argumentos para la función %s"
+    },
+    {
+        "ParseWrongFuncName": "No se permite el nombre de la función %s (puede que falte *)"
+    },
+    {
+        "ParseWrongSym": "Símbolo %s no permitido cuando se espera una letra o un número"
+    },
+    {
+        "ParseWrongAfterParenth": "Inesperado %1$s después de paréntesis en %2$s, quizás olvidé * o /"
+    },
+    {
+        "ParseDoubleSymError": "Error al usar %1$s en %2$s"
+    },
+    {
+        "ParseUnsupSynt": "Sintaxis no compatible con %1$s, use %2$s(0,1,xy)"
+    },
+    {
+        "ParseWrongHat": "Uso incorrecto del símbolo ^ en %s"
+    },
+    {
+        "CalcError": "No se puede calcular la expresión dada"
+    },
+    {
+        "EditorFormat": "Datos completos"
+    },
+    {
+        "BasicTextual": "Texto de fórmulas"
+    },
+    {
+        "LatexGenWarnMsg": "Se generó LaTeX porque la fórmula no se puede convertir a formato de texto corto"
+    },
+    {
+        "Latex": "LaTeX"
+    },
+    {
+        "ShareAsFile": "Compartir (archivo)"
+    },
+    {
+        "FromFile": "Desde archivo"
+    },
+    {
+        "SaveFile": "Guardar archivo"
+    },
+    {
+        "Cheatsheet": "Hoja de trucos"
+    },
+    {
+        "CheatsheetMsg": "Puedes tocar o hacer clic en la fórmula para abrir la página de Wikipedia (si tiene una etiqueta)"
+    },
+    {
+        "ComplexNumWarn": " Tienes resultados con \"i\" o raíz cuadrada de un número negativo. Esto puede significar que no hay solución en matemáticas. "
+    },
+    {
+        "SelectMode": "Seleccionar modo"
+    },
+    {
+        "HideMode": "Ocultar respuestas"
+    },
+    {
+        "CheatshHideMsg": "Toca o haz clic en la fórmula para mostrar la respuesta"
+    },
+    {
+        "FormGrAlgebra": "Álgebra"
+    },
+    {
+        "FormGrTrig": "Trigonometría"
+    },
+    {
+        "FormGrTrig2": "Trigonometría II"
+    },
+    {
+        "Geometry": "Geometría"
+    },
+    {
+        "FormGrCalc": "Cálculo"
+    },
+    {
+        "FormPhys": "Física"
+    },
+    {
+        "LinAlg": "Álgebra lineal"
+    },
+    {
+        "Share": "Compartir"
+    },
+    {
+        "OpenEditor": "Abrir editor"
+    },
+    {
+        "FromClipboard": "Pegar (otra aplicación)"
+    },
+    {
+        "ToClipboard": "Copiar"
+    },
+    {
+        "Image": "Imagen"
+    },
+    {
+        "SettingAssumeX": "Asumir x, y como variables predeterminadas en los gráficos"
+    },
+    {
+        "SettingNewFormulaDef": "Crear nueva fórmula por defecto"
+    },
+    {
+        "SettingGrid": "Mostrar cuadrícula"
+    },
+    {
+        "SettingGridExp": "Mostrar cuadrícula al exportar"
+    },
+    {
+        "SettingScanClipb": "Escanear automáticamente el portapapeles para buscar fórmulas para pegar"
+    },
+    {
+        "SettingDarkTheme": "Tema oscuro"
+    },
+    {
+        "SettingSaveBattery": "Modo de ahorro de batería"
+    },
+    {
+        "SettingSmallFrac": "Usar fracciones 'sfrac' más pequeñas"
+    },
+    {
+        "SettingCapLetter": "Mayúscula con doble toque"
+    },
+    {
+        "SettingCapLetter2": "Las mayúsculas siempre se pueden escribir con un toque prolongado, pero el doble toque puede ser más rápido"
+    },
+    {
+        "SettingProcessI": "Procesar i como número imaginario unitario (compatible con números complejos)"
+    },
+    {
+        "SettingProcessE": "Procesar e como número de Euler"
+    },
+    {
+        "SettingIntPrec": "Precisión del cálculo de integrales"
+    },
+    {
+        "SettingExpScale": "Escala del PDF/imagen exportado"
+    },
+    {
+        "SettingImageQuality": "Calidad/tamaño de la imagen exportada"
+    },
+    {
+        "SettingImageTransBg": "Fondo transparente en la imagen"
+    },
+    {
+        "SettingImageWebp": "Formato de imagen WebP"
+    },
+    {
+        "SettingLessSideBut": "Mostrar menos botones a la izquierda/derecha"
+    },
+    {
+        "SettingTg": "Tg, ctg, etc. en lugar de tan, cot, etc."
+    },
+    {
+        "SettingIntPrec2": "Coeficiente utilizado para determinar el número de pasos durante el cálculo de integrales definidas"
+    },
+    {
+        "SettingLatexAddPack": "Añadir documento con paquetes en la exportación"
+    },
+    {
+        "SettingLatexCopy": "Crear Latex durante la copia"
+    },
+    {
+        "SettingLatexOmitParenth": "Omitir paréntesis en algunos casos"
+    },
+    {
+        "SettingLatexWrapType": "Tipo de envoltura de fórmula Latex"
+    },
+    {
+        "SettingLatexUserFunc": "Marcar función de usuario"
+    },
+    {
+        "SettingLatexUserFunc2": "Inserta una secuencia especial antes de los paréntesis para marcar la llamada a la función del usuario. Solo se necesita para importar desde LaTeX."
+    },
+    {
+        "SettingEmailTitle": "Correo electrónico"
+    },
+    {
+        "SettingReplDot": "Para números, reemplaza el punto por una coma al exportar"
+    },
+    {
+        "SettingDrawBlurSlider": "Dibujos: mostrar el control deslizante para desenfocar un dibujo"
+    },
+    {
+        "SettingItalicDef": "Fuente cursiva por defecto"
+    },
+    {
+        "MenuDesktop": "Aplicación web (para escritorio)"
+    },
+    {
+        "MenuGuide": "Guía del usuario"
+    },
+    {
+        "Rate": "Tasa"
+    },
+    {
+        "SettingEmailDesc": "Comparte tu opinión con los autores o solicita una función que quieras ver."
+    },
+    {
+        "ExportFormatText": " El formato de texto representa el significado matemático de la fórmula de forma abreviada (pero no su aspecto). Probablemente sea reconocido por muchas otras aplicaciones para tipos comunes de fórmulas. Coincide con el lenguaje de Matlab en muchos aspectos, pero no siempre. Es posible que parte de lo que escriba no se pueda convertir a este formato. Puede contener símbolos Unicode (no ASCII) al usarlos. "
+    },
+    {
+        "ExportFormatInternal": " Le permitirá restaurar todas sus fórmulas y dibujos exactamente como los ve ahora, incluyendo algunos datos adicionales. Solo se puede usar con este editor. No es muy adecuado para la visualización/edición manual. Basado en formato JSON. En Android, los archivos (*.json) se pueden abrir desde otras aplicaciones (se importarán). "
+    },
+    {
+        "ExportFormatLatex": " Formato LaTeX conocido para la representación visual y la impresión de fórmulas de calidad. Sin embargo, no es fiable si desea restaurar fórmulas, ya que no está diseñado para conservar su significado exacto. "
+    },
+    {
+        "ExportFormatImage": " Imagen PNG que incluye fórmulas y dibujos seleccionados. \n La calidad de la imagen se puede cambiar en la configuración. \n Durante la importación, se inserta tal cual: no se escanea la foto para extraer fórmulas, etc. Usa otras aplicaciones gratuitas para crear LaTeX a partir de fotos y luego podrás importarlo. "
+    },
+    {
+        "FractionUserMsg": " Puede escribir fracciones más fácilmente con la tecla /. Escribe \"a+b\", luego presiona / dos veces y obtendrás \"(a+b)/…\". "
+    },
+    {
+        "Trigon": "Trigonometría"
+    },
+    {
+        "Algebra": "Álgebra"
+    },
+    {
+        "Or": "o"
+    },
+    {
+        "RestrMsg": " Las restricciones que son iguales para el lado izquierdo y el derecho generalmente no se muestran. Algunas restricciones pueden ser redundantes: para el filtro de resultados de búsqueda. "
+    },
+    {
+        "SysSolveNotLinier": "Parece que no son ecuaciones lineales. No lo solucionará"
+    },
+    {
+        "FontMenu": "Fuente (para comentarios)"
+    },
+    {
+        "FontWeight": "Peso"
+    },
+    {
+        "FontItalic": "Cursiva"
+    },
+    {
+        "FontName": "Nombre de la fuente"
+    },
+    {
+        "FontUseCustom": "Usar fuente personalizada"
+    },
+    {
+        "FontNotFound": "No se pudo encontrar ni descargar la fuente"
+    },
+    {
+        "FontLoading": "Cargando…"
+    },
+    {
+        "FontGoogleMsg": "Introduce el nombre de la fuente tal como aparece en Google Fonts:"
+    },
+    {
+        "Save": "Guardar"
+    },
+    {
+        "Size": "Tamaño"
+    },
+    {
+        "WebappLinkMsg1": " Este editor está disponible como aplicación web compatible con la mayoría de los navegadores. \n Diseñado para ordenadores de escritorio (portátiles/PC) \n Visite esta dirección: "
+    },
+    {
+        "WebappLinkMsg2": " Pero para dispositivos Android, es mejor usar esta aplicación. "
+    },
+    {
+        "WebappSuggButton": " <![CDATA[Aplicación web<font color=\"%s\"><small><small><br/><b>para portátiles/PC con teclado</b></small></small></font>]]> "
+    },
+    {
+        "GraphsCopyImage": "Copiar imagen"
+    },
+    {
+        "GraphsCopyImageMsg": "La imagen actual del gráfico se ha copiado al portapapeles. También puedes importarlo y añadirlo al lienzo con tus fórmulas."
+    },
+    {
+        "GraphsCopyImageNotif": "Imagen copiada al portapapeles"
+    },
+    {
+        "FileSaved": "Archivo guardado correctamente"
+    },
+    {
+        "CouldnotSaveError": " No se pudieron guardar los datos. Probablemente hayas alcanzado el límite de datos guardados. También deberías intentar recargar la aplicación e intentarlo de nuevo. "
+    },
+    {
+        "Processing": "Procesamiento de datos…"
+    }
+]

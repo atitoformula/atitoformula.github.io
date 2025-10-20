@@ -1,0 +1,176 @@
+
+canvas {
+    outline: none;
+    display: block;
+}
+
+.cont {
+    text-align: center
+}
+
+#settings input {
+    margin-right: 1em;
+}
+
+#settings select {
+    margin-right: 1em;
+}
+
+#settings > div:first-child {
+    overflow-y: auto;
+    height: 70dvh;
+    border: 2px solid black;
+}
+
+#settings > div:last-child {
+    height: 2em;
+    align-content: center;
+}
+
+#settings div {
+    text-align: left;
+    padding: .5em;
+}
+
+#settings {
+    display: none;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40em;
+    max-width: 90%;
+    background-color: #303030;
+    color: #d0d0d0;
+    border: 2px solid black;
+}
+
+.settingSection {
+    padding-left: 1em;
+    border: black 1px dotted;
+}
+
+.settingSecTitle {
+    font-weight: bold;
+    width: 100%;
+    text-align: center !important;
+}
+
+.setSummary {
+    font-size: 10pt;
+    font-style: italic;
+    padding-left: 2em;
+}
+
+#rangeVal {
+    font-size: 9pt;
+    padding-right: 1em;
+}
+
+textarea {
+    font-size: 1.4em;
+    background-color: #505050;
+    height: 70vh;
+    width: 100%;
+    border: 0px
+}
+
+#isIgnor {
+    display: inline;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+#editTextDialog {
+    position: absolute;
+    z-index: 1;
+    text-align:left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 2px;
+    display: none;
+    width: 80vw;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #303030;
+}
+
+#editTextDialog > div:first-child {
+   float: left;
+   width: calc(100% - 9em);
+}
+
+#editTextDialog > div:last-child {
+   float: right;
+   width: 20vw;
+   width: 8em;
+   text-align: center;
+}
+
+#editTextDialog * {
+    color: #d0d0d0;
+    background-color: #303030;
+}
+
+#editTextDialog button {
+    font-size: 1.3em;
+    width: 100%;
+    max-width: 12em;
+    margin-bottom: .5em;
+}
+
+body {
+   background-color: black;
+   overflow: hidden;
+   margin: 0;
+}
+
+#icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    font-size: 14pt;
+}
+
+#icon img {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+     -webkit-animation:spin 1s linear infinite;
+     -moz-animation:spin 1s linear infinite;
+     animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+#msg1 {
+    z-index: 1;
+    position: absolute;
+    width: 70%;
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+    top: 90%;
+    color: white;
+    font-size: 12pt;
+}

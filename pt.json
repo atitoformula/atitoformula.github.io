@@ -393,6 +393,9 @@
         "UnicodeMsg": " Você pode inserir qualquer símbolo digitando seu número hexadecimal Unicode. \n Por exemplo, digite \"2295\" e o botão com o símbolo ⊕ aparecerá. "
     },
     {
+        "WebappNewAddressMsg": " O editor está mudando de endereço. Este site ficará inacessível em breve. Você deve exportar os dados completos até que este site pare de funcionar. \n O novo endereço é "
+    },
+    {
         "WebappMsg": " Este editor está disponível como um aplicativo web que pode ser executado na maioria dos navegadores. Ele foi projetado para desktop (PC/laptop) com teclado físico. \n Acesse [Menu -> Ajuda] para mais informações. "
     },
     {

@@ -402,6 +402,9 @@
         "UnicodeMsg": " You can input any symbol by typing its unicode hexadecimal number. \n For example, type \"2295\" and button with ⊕ symbol appears. "
     },
     {
+        "WebappNewAddressMsg": " The editor is changing address. This site will be inaccessible soon. You should export full data until this site stops working. \n New address is "
+    },
+    {
         "WebappMsg": " This editor is available as web application that you can run in most browsers. It is designed for desktop (PC/laptop) with physical keyboard. \n Go to [Menu -> Help] for more information. "
     },
     {

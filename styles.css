@@ -48,6 +48,12 @@ canvas {
     border: 2px solid black;
 }
 
+.setTextArea {
+    height: 5em;
+    margin-top: 7pt;
+    font-size: 1em;
+}
+
 .settingSection {
     padding-left: 1em;
     border: black 1px dotted;

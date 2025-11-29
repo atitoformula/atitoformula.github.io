@@ -66,6 +66,9 @@
         "ImageOnly": "Image Only"
     },
     {
+        "Graph3DInvalidTextureId": "Incorrect index of texture %1$s. Found %2$s images on canvas. Index starts from 1 (biggest image) and must be not more than number of images."
+    },
+    {
         "Graph3DNotParamSurf": " If you graph 3D parametric surface (x=,y=,z=), then everything included in graph must be parametric surface. Some graphed function was not recognized as proper parametric surface. "
     },
     {
@@ -76,6 +79,9 @@
     },
     {
         "Graph3DFlightMode": "Flight mode"
+    },
+    {
+        "GraphColored": "Colored"
     },
     {
         "GameFireDamage": "Target hit! \n %2$s remains \n Finish fast or it restores"
@@ -93,7 +99,7 @@
         "GameAward": "Award: %s"
     },
     {
-        "GameLevelDone": " All Done! \n Award %1$s. \n -%2$s for longer time (%4$s m). -%3$s for radar. \n More points means higher difficulty and unlocked worlds. "
+        "GameLevelDone": " All Done! \n Award %1$s. \n -%2$s for longer time (%4$s m). -%3$s for radar. \n More points means higher difficulty allowed and unlocked worlds. "
     },
     {
         "GameOver": "Game Over"
@@ -123,10 +129,10 @@
         "GameFollowTarget": "Chase and shoot UFOs. \n Destroy them all."
     },
     {
-        "GameAllWorldsCreated": " All 3D worlds are created with math functions (like 3D graph). You can create your own. \"Equations\" buttons will let you see and copy math for each world. "
+        "GameAllWorldsCreated": " All 3D worlds are created with math functions (like 3D graph). You can create your own. \"Equations\" button will let you see and copy math for each world. "
     },
     {
-        "GameCopyEquations": " You can now go back (finish game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. "
+        "GameCopyEquations": " You can now go back (finish game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. It is easy just to import your own images for textures. "
     },
     {
         "GamePointLevel": "Points: %1$s, difficulty level %2$s"
@@ -315,7 +321,7 @@
         "TwoVarGraph": "Surface graph"
     },
     {
-        "TooManyVarsTwoVar": "In case of two variables you can also see a colored representation of surface (simpler alternative to 3D graph) if that is what you need now."
+        "TooManyVarsTwoVar": "In case of two variables you can also see a colored representation of surface (and 3D graph) if that is what you need now."
     },
     {
         "DefXVar": "x,y are default variables in graphs, all others are parameters \n (it can be changed in settings)"
@@ -607,6 +613,12 @@
     },
     {
         "Graph3DParamSurfaceMsg": " When you graph equations x=…,y=…,z=… then 3D graph is opened for parametric surface. \n Interval of change for each variable (parameter) is always from 0 to 1. You can add formulas like u=2*pi*u1, then u1 becomes variable, and u goes from 0 to 2*pi. "
+    },
+    {
+        "GraphXyUserMsg": " When you have a single variable and graph equations \n x=… y=… OR r=… φ=… \n then special graph is opened. \n It's parametric equation is case of x,y, or polar coordinates in case of r (radius), φ (angle). \n Interval of change for variable (parameter) is always from 0 to 1. You can add formulas like u=2*pi*u1, then u1 becomes variable, and u goes from 0 to 2*pi. "
+    },
+    {
+        "Graph3DXyzMsg": " When you graph a function of free variables x,y,z, \n then special 3D graph is opened with particles scattered over volume of space. Higher concentration of particles means higher value of function. "
     },
     {
         "NoEditIfRotated": "No editing if rotated"
@@ -1020,6 +1032,9 @@
         "SettingTg": "Tg, ctg, etc. instead of tan, cot, etc."
     },
     {
+        "SettingTgDesc": "Also changes positions of integral bounds"
+    },
+    {
         "SettingIntPrec2": "Coefficient used to determine the number of steps during calculation of definite integrals"
     },
     {
@@ -1050,7 +1065,7 @@
         "SettingDrawBlurSlider": "Drawings: show slider to blur a drawing"
     },
     {
-        "SettingGameChosenLevel": "Game: difficulty level"
+        "SettingGameChosenLevel": "Difficulty level"
     },
     {
         "SettingItalicDef": "Italic font by default"

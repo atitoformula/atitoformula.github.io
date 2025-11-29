@@ -66,6 +66,9 @@
         "ImageOnly": "Somente Imagem"
     },
     {
+        "Graph3DSumNotExpanded": "A função soma não pode ser processada (expandida). Parâmetros incorretos ou intervalo muito grande."
+    },
+    {
         "Graph3DFlightMode": "Modo de voo"
     },
     {
@@ -84,7 +87,7 @@
         "GameAward": "Recompensa: %s"
     },
     {
-        "GameLevelDone": " Missão Cumprida! \n Recompensa %1$s. \n -%2$s por tempo excessivo (%4$s m). -%3$s por uso de radar. \n Mais pontos = Maior dificuldade e mundos liberados. "
+        "GameLevelDone": " Missão Cumprida! \n Recompensa %1$s. \n -%2$s por tempo excessivo (%4$s m). -%3$s por uso de radar. \n Mais pontos significam que níveis de dificuldade mais altos serão permitidos e mundos serão desbloqueados. "
     },
     {
         "GameOver": "Game Over"
@@ -117,7 +120,7 @@
         "GameAllWorldsCreated": " Os mundos 3D são criados com funções matemáticas. Você pode criar os seus. Os botões \"Equações\" permitirão ver e copiar a matemática de cada mundo. "
     },
     {
-        "GameCopyEquations": " Agora você pode voltar e colar as equações copiadas na tela. É melhor limpar a tela antes disso, para que outras equações não interfiram. Você poderá então editar as equações e abrir o gráfico 3D. Haverá uma opção para iniciar o jogo. "
+        "GameCopyEquations": " Agora você pode voltar e colar as equações copiadas na tela. É melhor limpar a tela antes disso, para que outras equações não interfiram. Você poderá então editar as equações e abrir o gráfico 3D. Haverá uma opção para iniciar o jogo. É fácil importar suas próprias imagens para texturas. "
     },
     {
         "GamePointLevel": "Pontos: %1$s, nível de dificuldade %2$s"
@@ -537,6 +540,9 @@
         "MatrixWrongIndex": " Índice incorreto (%1$s) da célula para a matriz: %2$s (tamanho %3$s). \n Para vetores, \"11\" é a 11ª célula; para matrizes, é a célula (1, 1) (com vírgula opcional). \n Você também pode usar x, y, z como 1, 2, 3. "
     },
     {
+        "ImportNoText": "Dados vazios ou não textuais na área de transferência"
+    },
+    {
         "ImportInternalAsk": "Deseja anexar novas fórmulas às existentes (com posições perdidas) ou substituir as existentes com os dados completos restaurados?"
     },
     {
@@ -753,6 +759,9 @@
         "GraphsNoSystem": " Em gráficos, tais sistemas podem ser divididos automaticamente, também há um caso especial de x=, y=, z=. "
     },
     {
+        "GraphsNoSystemXYZ": "Uso incorreto do sistema com superfície paramétrica (x=,y=,z=). Você só pode usar a soma direta deles em uma função gráfica, sem nenhuma matemática complementar (por exemplo, multiplicadores). Provavelmente usado no lugar errado ou com matemática extra, o que resultou em um processamento incorreto."
+    },
+    {
         "GraphsRefToItself": "%s tem referência a si mesmo (talvez indiretamente)"
     },
     {
@@ -933,6 +942,9 @@
         "SettingPhysKeyb": "Modo de aplicativo com uso de teclado físico"
     },
     {
+        "SettingExportColored": "Exportação de imagem/pdf: manter cores e estilo"
+    },
+    {
         "SettingGridExp": "Mostrar grade exportada"
     },
     {
@@ -981,6 +993,9 @@
         "SettingTg": "Tg, ctg, etc. em vez de tan, cot, etc."
     },
     {
+        "SettingTgDesc": "Também altera as posições dos limites integrais"
+    },
+    {
         "SettingIntPrec2": "Coeficiente usado para determinar o número de etapas durante o cálculo de integrais definidas"
     },
     {
@@ -1014,6 +1029,9 @@
         "SettingItalicDef": "Fonte itálica por padrão"
     },
     {
+        "SettingLatexRegexDesc": "Faz alterações no látex exportado com base em expressões regulares. Uma instrução por linha. \\\n Exemplos: \"\\\\\\\\mathrm==\\\\\\\\textrm\", \"_(\\\\w+)==_\\\\\\\\textrm{$1}\""
+    },
+    {
         "SettingHideButtons": "Ocultar botões para fórmulas"
     },
     {
@@ -1023,7 +1041,7 @@
         "SettingHtmlSupport": "Suporte básico de HTML em blocos de texto (tags b, i, etc.)"
     },
     {
-        "SettingGameChosenLevel": "Jogo: nível de dificuldade"
+        "SettingGameChosenLevel": "Nível de dificuldade"
     },
     {
         "MenuDesktop": "Aplicativo Web (para desktop)"
@@ -1123,5 +1141,23 @@
     },
     {
         "Processing": "Processamento de dados…"
+    },
+    {
+        "ImportNoImage": "Nenhuma imagem foi encontrada na área de transferência (ou não pode ser processada)"
+    },
+    {
+        "SettingLatexRegex": "Correções automáticas de LaTeX"
+    },
+    {
+        "SettingLatinModern": "Latin Modern Math fonte"
+    },
+    {
+        "Graph3DInvalidTextureId": "Índice incorreto da textura %1$s. Foram encontradas %2$s imagens na tela. O índice começa em 1 (maior imagem) e não deve ser maior que o número de imagens."
+    },
+    {
+        "Graph3DNotParamSurf": "Se você representar graficamente uma superfície paramétrica 3D (x=,y=,z=), tudo incluído no gráfico deverá ser uma superfície paramétrica. Algumas funções representadas graficamente não foram reconhecidas como superfícies paramétricas adequadas."
+    },
+    {
+        "Graph3DNotParamSurf2": "Ao representar graficamente múltiplas superfícies paramétricas 3D (x=,y=,z=), você pode fazer a soma delas (cada uma é um sistema de equações). Cada termo da soma deve ser uma única superfície paramétrica. Alguns não são. No entanto, você pode definir funções e referenciá-las."
     }
 ]

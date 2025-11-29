@@ -66,10 +66,13 @@
         "ImageOnly": "Solo imagen"
     },
     {
+        "Graph3DSumNotExpanded": "No se puede procesar la función suma (expandirla). Parámetros incorrectos o rango demasiado grande."
+    },
+    {
         "Graph3DFlightMode": "Modo vuelo"
     },
     {
-        "GameFireDamage": "¡Blanco impactado! \n Quedan %2$s \n Acaba rápido o se regenerará"
+        "GameFireDamage": "¡Objetivo dañado! \n Quedan %2$s \n Acaba rápido o se regenerará"
     },
     {
         "GameFire": "Disparar"
@@ -84,7 +87,7 @@
         "GameAward": "Recompensa: %s"
     },
     {
-        "GameLevelDone": " ¡Misión Cumplida! \n Recompensa %1$s. \n -%2$s por exceso de tiempo (%4$s m). -%3$s por uso de radar. \n Más puntos = Mayor dificultad y mundos desbloqueados. "
+        "GameLevelDone": " ¡Misión Cumplida! \n Recompensa %1$s. \n -%2$s por exceso de tiempo (%4$s m). -%3$s por uso de radar. \n Más puntos significa mayor dificultad permitida y mundos desbloqueados. "
     },
     {
         "GameOver": "Game Over"
@@ -117,7 +120,7 @@
         "GameAllWorldsCreated": " Los mundos 3D se crean con funciones matemáticas. Puedes crear los tuyos propios. El botón \"Ecuaciones\" te permite ver y copiar las matemáticas de cada mundo. "
     },
     {
-        "GameCopyEquations": " Ahora puedes volver y pegar las ecuaciones copiadas en el lienzo. Es mejor limpiar el lienzo antes, para que otras ecuaciones no interfieran. Luego podrás editar las ecuaciones y abrir el gráfico 3D. Allí habrá una opción para iniciar el juego. "
+        "GameCopyEquations": " Ahora puedes volver y pegar las ecuaciones copiadas en el lienzo. Es mejor limpiar el lienzo antes, para que otras ecuaciones no interfieran. Luego podrás editar las ecuaciones y abrir el gráfico 3D. Allí habrá una opción para iniciar el juego. Es fácil simplemente importar tus propias imágenes para las texturas. "
     },
     {
         "GamePointLevel": "Puntos: %1$s, nivel de dificultad %2$s"
@@ -537,6 +540,9 @@
         "MatrixWrongIndex": " Índice (%1$s) incorrecto de la celda de la matriz: %2$s (tamaño %3$s). Para vectores, \"11\" es la undécima celda; para matrices, es la celda (1, 1) (con coma opcional). También se pueden usar x, y, z como 1, 2, 3. "
     },
     {
+        "ImportNoText": "Datos vacíos o no textuales en el portapapeles"
+    },
+    {
         "ImportInternalAsk": "¿Desea añadir nuevas fórmulas a las existentes (con las posiciones perdidas) o sobrescribir las existentes restaurando todos los datos?"
     },
     {
@@ -753,6 +759,9 @@
         "GraphsNoSystem": " En gráficos tales sistemas pueden dividirse automáticamente, también es el caso especial de x=, y=, z=. "
     },
     {
+        "GraphsNoSystemXYZ": "Uso incorrecto del sistema con superficie paramétrica (x=,y=,z=). Solo se puede usar la suma directa de estas funciones en una función graficada, sin ningún cálculo adicional (por ejemplo, multiplicadores). Probablemente se usó en un lugar incorrecto o con cálculos adicionales, lo que provocó un procesamiento incorrecto."
+    },
+    {
         "GraphsRefToItself": "%s se refiere a sí mismo (quizás indirectamente). "
     },
     {
@@ -933,6 +942,9 @@
         "SettingPhysKeyb": "Modo aplicación con uso de teclado físico"
     },
     {
+        "SettingExportColored": "Exportación de imagen/pdf: conserva los colores y el estilo"
+    },
+    {
         "SettingGridExp": "Mostrar cuadrícula al exportar"
     },
     {
@@ -981,6 +993,9 @@
         "SettingTg": "Tg, ctg, etc. en lugar de tan, cot, etc."
     },
     {
+        "SettingTgDesc": "También cambia las posiciones de los límites integrales."
+    },
+    {
         "SettingIntPrec2": "Coeficiente utilizado para determinar el número de pasos durante el cálculo de integrales definidas"
     },
     {
@@ -1014,6 +1029,9 @@
         "SettingItalicDef": "Fuente cursiva por defecto"
     },
     {
+        "SettingLatexRegexDesc": "Realiza cambios en el LaTeX exportado según expresiones regulares. Una instrucción por línea. \\\n Ejemplos: \"\\\\\\\\mathrm==\\\\\\\\textrm\", \"_(\\\\w+)==_\\\\\\\\textrm{$1}\""
+    },
+    {
         "SettingHideButtons": "Ocultar botones para fórmulas"
     },
     {
@@ -1023,7 +1041,7 @@
         "SettingHtmlSupport": "Soporte básico de HTML en bloques de texto (etiquetas b, i, etc.)"
     },
     {
-        "SettingGameChosenLevel": "Juego: nivel de dificultad"
+        "SettingGameChosenLevel": "Nivel de dificultad"
     },
     {
         "MenuDesktop": "Aplicación web (para escritorio)"
@@ -1032,7 +1050,7 @@
         "MenuGuide": "Guía del usuario"
     },
     {
-        "Rate": "Tasa"
+        "Rate": "Calificar"
     },
     {
         "SettingEmailDesc": "Comparte tu opinión con los autores o solicita una función que quieras ver."
@@ -1123,5 +1141,23 @@
     },
     {
         "Processing": "Procesamiento de datos…"
+    },
+    {
+        "ImportNoImage": "No se encontró ninguna imagen en el portapapeles (o no se puede procesar)"
+    },
+    {
+        "SettingLatexRegex": "Correcciones automáticas de LaTeX"
+    },
+    {
+        "SettingLatinModern": "Latin Modern Math fuente"
+    },
+    {
+        "Graph3DInvalidTextureId": "Índice incorrecto de la textura %1$s. Se encontraron %2$s imágenes en el lienzo. El índice empieza desde 1 (la imagen más grande) y no debe ser mayor que el número de imágenes."
+    },
+    {
+        "Graph3DNotParamSurf": "Si se grafica una superficie paramétrica 3D (x=,y=,z=), entonces todo lo incluido en el gráfico debe ser una superficie paramétrica. Alguna función graficada no se reconoció como una superficie paramétrica adecuada."
+    },
+    {
+        "Graph3DNotParamSurf2": "Al graficar varias superficies paramétricas 3D (x=, y=, z=), se pueden sumar (cada una es un sistema de ecuaciones). Cada término de la suma debe ser una sola superficie paramétrica. Algunas no lo son. Sin embargo, se pueden definir funciones y referenciarlas."
     }
 ]

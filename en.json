@@ -84,22 +84,55 @@
         "GraphColored": "Colored"
     },
     {
-        "GameFireDamage": "Target hit! \n %2$s remains \n Finish fast or it restores"
+        "GamePause": "Pause"
+    },
+    {
+        "GameMaxComplLevel": "Max completed"
+    },
+    {
+        "GameLocked": "More points required (%s)"
+    },
+    {
+        "GameOtherWorlds": "Other worlds"
+    },
+    {
+        "GameFireDamage": "Target hit!"
+    },
+    {
+        "GameFireDamage2": "%2$s remains \n Finish fast or it restores"
     },
     {
         "GameFire": "Fire"
     },
     {
+        "GameWeaponType": "Weapons"
+    },
+    {
+        "GameWeaponSelfDir": "Self-directed"
+    },
+    {
+        "GameWeaponAutomatic": "Automatic"
+    },
+    {
+        "GameCloseToTargetMsg": "Get closer to target to be able to shoot"
+    },
+    {
         "GameCrash": "Crash! \n %s more times can hold"
     },
     {
-        "GameDestroyed": "One down, %s to go"
+        "GameDestroyed": "Destroyed! \n %s to go"
     },
     {
         "GameAward": "Award: %s"
     },
     {
-        "GameLevelDone": " All Done! \n Award %1$s. \n -%2$s for longer time (%4$s m). -%3$s for radar. \n More points means higher difficulty allowed and unlocked worlds. "
+        "GameLevelDonePassed": " Victory! \n Passed level %s for this world! "
+    },
+    {
+        "GameLevelDoneNoAdvance": " Mission success! "
+    },
+    {
+        "GameLevelDoneStat": " -%1$s for longer time (%3$s m). -%2$s for radar. "
     },
     {
         "GameOver": "Game Over"
@@ -126,7 +159,10 @@
         "GameMenuItem": "3D Game"
     },
     {
-        "GameFollowTarget": "Chase and shoot UFOs. \n Destroy them all."
+        "GameFollowTarget": "Chase and shoot UFOs."
+    },
+    {
+        "GameGoal": "Goal is to destroy %s"
     },
     {
         "GameAllWorldsCreated": " All 3D worlds are created with math functions (like 3D graph). You can create your own. \"Equations\" button will let you see and copy math for each world. "
@@ -135,7 +171,7 @@
         "GameCopyEquations": " You can now go back (finish game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. It is easy just to import your own images for textures. "
     },
     {
-        "GamePointLevel": "Points: %1$s, difficulty level %2$s"
+        "GamePointLevel": "Points: %1$s"
     },
     {
         "Graph3DSpeed": "Speed"
@@ -327,7 +363,7 @@
         "DefXVar": "x,y are default variables in graphs, all others are parameters \n (it can be changed in settings)"
     },
     {
-        "FormulaForXWarning": " You have formula x=… \n In this case 'x' cannot be the main variable for graph. Maybe not what you want. \n To avoid this message, disable 'x' as default variable in settings. "
+        "FormulaForXWarning": " You have formula x=… \n In this case 'x' cannot be the main variable for graph. Maybe not what you want. \n To avoid this message, disable 'x' as default variable in settings. \n Note that for any other variable such formulas-definitions may affect graphs and calculations. "
     },
     {
         "TooManyVars": " You have %1$s variables with not specified values:\n %2$s.\n For usual graphs you need to leave just one variable, others must have formulas like \"%3$s=1\" with initial default value (or reference suchlike). Editor scans all references in formulas to each other. "
@@ -612,10 +648,10 @@
         "Space": "Space"
     },
     {
-        "Graph3DParamSurfaceMsg": " When you graph equations x=…,y=…,z=… then 3D graph is opened for parametric surface. \n Interval of change for each variable (parameter) is always from 0 to 1. You can add formulas like u=2*pi*u1, then u1 becomes variable, and u goes from 0 to 2*pi. "
+        "Graph3DParamSurfaceMsg": " When you graph equations x=… y=… z=… then 3D graph is opened for parametric surface. \n Interval of change for each variable (parameter) is always from 0 to 1. You can add formulas like u=2*π*u₁, then u₁ becomes variable, and u goes from 0 to 2*π. "
     },
     {
-        "GraphXyUserMsg": " When you have a single variable and graph equations \n x=… y=… OR r=… φ=… \n then special graph is opened. \n It's parametric equation is case of x,y, or polar coordinates in case of r (radius), φ (angle). \n Interval of change for variable (parameter) is always from 0 to 1. You can add formulas like u=2*pi*u1, then u1 becomes variable, and u goes from 0 to 2*pi. "
+        "GraphXyUserMsg": " When you have a single variable and graph 2 equations \n x=… y=… OR r=… φ=… \n then special graph is opened: parametric equation is case of x,y, or polar coordinates in case of r (radius), φ (angle). Interval of change for variable (parameter) is always from 0 to 1. You can add formulas like u=2*π*u₁, then u₁ becomes variable, and u goes from 0 to 2*π. "
     },
     {
         "Graph3DXyzMsg": " When you graph a function of free variables x,y,z, \n then special 3D graph is opened with particles scattered over volume of space. Higher concentration of particles means higher value of function. "
@@ -636,6 +672,18 @@
         "DrawingGroupMsg": "Grouping means that if you try to select a single drawing, then all others in its group will be automatically selected."
     },
     {
+        "Opacity": "Opacity"
+    },
+    {
+        "Saturation": "Saturation"
+    },
+    {
+        "ColorFillImageMsg": "No imported images for background"
+    },
+    {
+        "ColorFillMsg": " Move circles to shift background, or rotate and stretch it. \n Touch a circle to change one of two colors of gradient. "
+    },
+    {
         "Draw": "Drawing"
     },
     {
@@ -645,13 +693,16 @@
         "MultipleIntegrals": " To find antiderivative for double, triple indefinite integrals, the variable must be the same: repeated integration will be applied. \n Otherwise, integrals must be definite and variables are different. "
     },
     {
-        "MalformedIntegral": "Integral is malformed. It must contain differential in every term. Maybe the result of missing parenthesis."
+        "MalformedIntegral": "You probably typed the integral incorrectly. \n It must contain differential in every term. Maybe the result of missing parenthesis."
     },
     {
-        "MalformedIntegralNested": "Integral is probably malformed. Parentheses for each integral must directly contain single differential (d) and not inside another nested integral."
+        "MalformedIntegral4": " You probably typed the integral incorrectly. \n In most cases you should not use a separate symbol of integral, use function ∫ with auto-hiding parentheses. Note that there is button ∫dx. "
     },
     {
-        "MalformedIntegral3": " To calculate multiple definite integrals, they must use different variables. \n The differential (d) must contain single variable. "
+        "MalformedIntegralNested": " You probably typed the integral incorrectly. \n Parentheses for each integral must directly contain single differential (function d) and not inside another nested integral. "
+    },
+    {
+        "MalformedIntegral3": " To calculate multiple definite integrals, they must use different variables. \n The differential (function d) must contain single variable. "
     },
     {
         "SelInsideIntergal": "For usual integral solving you should select the entire integral with the integral symbol at the beginning (and only single integral)."
@@ -915,6 +966,12 @@
         "CheatshHideMsg": "Tap/click on formula to show answer"
     },
     {
+        "CheatshUserSection": "My Definitions"
+    },
+    {
+        "CheatshUserSectionMsg": " This is your custom cheat sheet or library: here you can write your own definitions, which are commonly used or unlikely to change. They include constants, functions and identities. Be careful what you keep here, as it is implicitly added to the content of main canvas (avoid \"a=1\", etc.). "
+    },
+    {
         "FormGrAlgebra": "Algebra"
     },
     {
@@ -1065,7 +1122,7 @@
         "SettingDrawBlurSlider": "Drawings: show slider to blur a drawing"
     },
     {
-        "SettingGameChosenLevel": "Difficulty level"
+        "GameDiffLevel": "Difficulty level"
     },
     {
         "SettingItalicDef": "Italic font by default"

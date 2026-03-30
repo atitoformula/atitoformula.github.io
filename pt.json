@@ -72,10 +72,34 @@
         "Graph3DFlightMode": "Modo de voo"
     },
     {
-        "GameFireDamage": "Alvo atingido! \n Restam %2$s \n Finalize rápido ou ele se recupera"
+        "GraphColored": "Colorido"
     },
     {
-        "GameFire": "Atirar"
+        "GameOtherWorlds": "Outros mundos"
+    },
+    {
+        "GameFireDamage": "Alvo atingido!"
+    },
+    {
+        "GameFireDamage2": "Restam %2$s \n Finalize rápido ou ele se recupera"
+    },
+    {
+        "GameFire": "¡Fogo!"
+    },
+    {
+        "GameWeaponType": "Armas"
+    },
+    {
+        "GameWeaponSelfDir": "Autoguiado"
+    },
+    {
+        "GameWeaponAutomatic": "Automático"
+    },
+    {
+        "GameCloseToTargetMsg": "Aproxime-se do alvo para poder atirar."
+    },
+    {
+        "GameGoal": "O objetivo é destruir %s"
     },
     {
         "GameCrash": "Colisão! \n Suporta mais %s impactos"
@@ -87,7 +111,13 @@
         "GameAward": "Recompensa: %s"
     },
     {
-        "GameLevelDone": " Missão Cumprida! \n Recompensa %1$s. \n -%2$s por tempo excessivo (%4$s m). -%3$s por uso de radar. \n Mais pontos significam que níveis de dificuldade mais altos serão permitidos e mundos serão desbloqueados. "
+        "GameLevelDonePassed": " Parabéns! Você passou do nível %s deste mundo! "
+    },
+    {
+        "GameLevelDoneNoAdvance": " Missão Cumprida! "
+    },
+    {
+        "GameLevelDoneStat": " -%1$s por tempo excessivo (%3$s m). -%2$s por uso de radar. "
     },
     {
         "GameOver": "Game Over"
@@ -114,7 +144,7 @@
         "GameMenuItem": "Jogo 3D"
     },
     {
-        "GameFollowTarget": "Persiga e dispare contra os OVNIs. \n Destrua todos."
+        "GameFollowTarget": "Persiga e dispare contra os OVNIs."
     },
     {
         "GameAllWorldsCreated": " Os mundos 3D são criados com funções matemáticas. Você pode criar os seus. Os botões \"Equações\" permitirão ver e copiar a matemática de cada mundo. "
@@ -123,7 +153,7 @@
         "GameCopyEquations": " Agora você pode voltar e colar as equações copiadas na tela. É melhor limpar a tela antes disso, para que outras equações não interfiram. Você poderá então editar as equações e abrir o gráfico 3D. Haverá uma opção para iniciar o jogo. É fácil importar suas próprias imagens para texturas. "
     },
     {
-        "GamePointLevel": "Pontos: %1$s, nível de dificuldade %2$s"
+        "GamePointLevel": "Pontos: %1$s"
     },
     {
         "Graph3DSpeed": "Velocidade"
@@ -315,7 +345,7 @@
         "DefXVar": "x,y são variáveis padrão em gráficos, todas as outras são parâmetros \n (podem ser alteradas nas configurações)"
     },
     {
-        "FormulaForXWarning": " Você tem a fórmula x=… \n Neste caso, 'x' não pode ser a variável principal do gráfico. Talvez não seja o que você deseja. \n Para evitar esta mensagem, desative 'x' como variável padrão nas configurações."
+        "FormulaForXWarning": " Você tem a fórmula x=… \n Neste caso, 'x' não pode ser a variável principal do gráfico. Talvez não seja o que você deseja. \n Para evitar esta mensagem, desative 'x' como variável padrão nas configurações. \n Note que, para qualquer outra variável, essas fórmulas (definições) podem afetar gráficos e cálculos. "
     },
     {
         "TooManyVars": " Você tem %1$s variáveis com valores não especificados:\n %2$s.\n Para gráficos comuns, você precisa deixar apenas uma variável, outras devem ter fórmulas como \"%3$s=1\" com valor padrão inicial (ou referência semelhante). O editor verifica todas as referências nas fórmulas entre si. "
@@ -597,7 +627,13 @@
         "Space": "Espaço"
     },
     {
-        "Graph3DParamSurfaceMsg": " Ao representar graficamente as equações x=…,y=…,z=…, o gráfico 3D é aberto para a superfície paramétrica. \n O intervalo de variação para cada variável (parâmetro) é sempre de 0 a 1. Você pode adicionar fórmulas como u=2*pi*u1, então u1 se torna variável e u vai de 0 a 2*pi. "
+        "Graph3DParamSurfaceMsg": " Ao representar graficamente as equações x=… y=… z=…, o gráfico 3D é aberto para a superfície paramétrica. \n O intervalo de variação para cada variável (parâmetro) é sempre de 0 a 1. Você pode adicionar fórmulas como u=2*pi*u1, então u1 se torna variável e u vai de 0 a 2*pi. "
+    },
+    {
+        "GraphXyUserMsg": " Quando você tem uma única variável e representa graficamente duas equações: \n x=… y=… OU r=… φ=… \n então um gráfico especial é aberto: a equação paramétrica é o caso de x,y, ou coordenadas polares no caso de r (raio), φ (ângulo). O intervalo de variação da variável (parâmetro) é sempre de 0 a 1. Você pode adicionar fórmulas como u=2*π*u₁, então u₁ se torna a variável e u varia de 0 a 2*π. "
+    },
+    {
+        "Graph3DXyzMsg": " Ao representar graficamente uma função de variáveis livres x, y, z, \n um gráfico 3D especial é aberto com partículas espalhadas por um volume de espaço. Uma maior concentração de partículas significa um valor maior da função. "
     },
     {
         "NoEditIfRotated": "Sem edição se rotacionado"
@@ -615,6 +651,18 @@
         "DrawingGroupMsg": "Agrupar significa que, se você tentar selecionar um único desenho, todos os outros no grupo serão selecionados automaticamente."
     },
     {
+        "Opacity": "Opacidade"
+    },
+    {
+        "Saturation": "Saturação"
+    },
+    {
+        "ColorFillImageMsg": "Nenhuma imagem importada para o plano de fundo"
+    },
+    {
+        "ColorFillMsg": " Mova os círculos para alterar o plano de fundo ou gire-o e estique-o. Toque em um círculo para alterar uma das duas cores do gradiente. "
+    },
+    {
         "Draw": "Desenho"
     },
     {
@@ -624,10 +672,13 @@
         "MultipleIntegrals": " Para encontrar a antiderivada para integrais indefinidas duplas e triplas, a variável deve ser a mesma: a integração repetida será aplicada. \n Caso contrário, as integrais devem ser definidas e as variáveis são diferentes. "
     },
     {
-        "MalformedIntegral": "A integral está malformada. Deve conter diferencial em todos os termos. Talvez seja o resultado da ausência de parênteses."
+        "MalformedIntegral": "Você provavelmente digitou a integral incorretamente. Deve conter diferencial em todos os termos. Talvez seja o resultado da ausência de parênteses."
     },
     {
-        "MalformedIntegralNested": "A integral provavelmente está malformada. Os parênteses para cada integral devem conter diretamente uma diferencial simples (d) e não dentro de outra integral aninhada."
+        "MalformedIntegral4": " Você provavelmente digitou a integral incorretamente. \n Na maioria dos casos, você não deve usar um símbolo de integral separado, use a função ∫ com parênteses de ocultação automática. Observe que existe o botão ∫dx. "
+    },
+    {
+        "MalformedIntegralNested": "Você provavelmente digitou a integral incorretamente. Os parênteses para cada integral devem conter diretamente uma diferencial simples (d) e não dentro de outra integral aninhada."
     },
     {
         "MalformedIntegral3": " Para calcular múltiplas integrais definidas, elas devem usar variáveis diferentes. \n A diferencial (d) deve conter uma única variável. "
@@ -894,6 +945,12 @@
         "CheatshHideMsg": "Toque/clique na fórmula para mostrar a resposta"
     },
     {
+        "CheatshUserSection": "Minhas definições"
+    },
+    {
+        "CheatshUserSectionMsg": " Esta é a sua folha de dicas ou biblioteca personalizada: aqui você pode escrever suas próprias definições, que são comumente usadas ou que provavelmente não mudarão. Elas incluem constantes, funções e identidades. Tenha cuidado com o que você mantém aqui, pois é implicitamente adicionado à tela principal (evite \"a=1\", etc.). "
+    },
+    {
         "FormGrAlgebra": "Álgebra"
     },
     {
@@ -1041,7 +1098,7 @@
         "SettingHtmlSupport": "Suporte básico de HTML em blocos de texto (tags b, i, etc.)"
     },
     {
-        "SettingGameChosenLevel": "Nível de dificuldade"
+        "GameDiffLevel": "Nível de dificuldade"
     },
     {
         "MenuDesktop": "Aplicativo Web (para desktop)"
@@ -1159,5 +1216,14 @@
     },
     {
         "Graph3DNotParamSurf2": "Ao representar graficamente múltiplas superfícies paramétricas 3D (x=,y=,z=), você pode fazer a soma delas (cada uma é um sistema de equações). Cada termo da soma deve ser uma única superfície paramétrica. Alguns não são. No entanto, você pode definir funções e referenciá-las."
+    },
+    {
+        "GameMaxComplLevel": "Max completou"
+    },
+    {
+        "GamePause": "Pausa"
+    },
+    {
+        "GameLocked": "É necessário mais ponto (%s)"
     }
 ]

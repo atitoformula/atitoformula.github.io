@@ -147,7 +147,7 @@
         "GameOpenMath": "Equations"
     },
     {
-        "GameEnd": "Finish Game"
+        "GameEnd": "Exit Game"
     },
     {
         "GameContinue": "Continue"
@@ -168,7 +168,7 @@
         "GameAllWorldsCreated": " All 3D worlds are created with math functions (like 3D graph). You can create your own. \"Equations\" button will let you see and copy math for each world. "
     },
     {
-        "GameCopyEquations": " You can now go back (finish game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. It is easy just to import your own images for textures. "
+        "GameCopyEquations": " You can now go back (exit game) and paste copied equations to main canvas. It is better to clear canvas before that, so other equations would not interfere. You could then edit equations and open graph. There will be option to fly and start game. It is easy just to import your own images for textures. "
     },
     {
         "GamePointLevel": "Points: %1$s"
@@ -177,13 +177,13 @@
         "Graph3DSpeed": "Speed"
     },
     {
-        "ChangedBrightness": "Changing brightness"
+        "ChangedBrightness": "Domain coloring"
     },
     {
         "ChangedBrightnessExplain": "Now the selected primary function defines color from blue to red. Second function defines brightness."
     },
     {
-        "GraphsWavesExplain": "Waves mode (alternating) lets you better see the direction and speed how function's value changes, but you won't be able to see by color where it is bigger or smaller."
+        "GraphsWavesExplain": "Waves mode (alternating) lets you better see the contours of changing function, but you won't be able to see by color where it is bigger or smaller."
     },
     {
         "ZeroDetMultSol": "Linear equations system has one or more solutions \n (for %s). \n There are linearly dependent equations which can be removed to find formula for solution."
@@ -351,7 +351,7 @@
         "LabelFuncConflict": "%s cannot be used as function and as usual variable at the same time."
     },
     {
-        "TwoVarGraphExplain": " Color corresponds to the value of function and is distributed between blue (min) and red (max). Max/min is calculated only over displayed area and will change when you move the area hence colors will also be changing, always from blue to red. \n To lock/fix colors press button \"Locked colors\" after you find an area with suitable max/min values. \n You should also try \"Waves\" mode. \n Quality of shown graph will gradually improve when you stop clicking (touching screen). "
+        "TwoVarGraphExplain": " Color corresponds to the value of function: from blue (min) to red (max). Max/min is calculated only over displayed area and will change when you move the area, hence colors will also be changing, always from blue to red. \n To fix colors press button \"Locked colors\". \n Brightness varies a little to mark contours. Dark blue shows near zero values. \n Quality will gradually improve when you're not touching screen. "
     },
     {
         "TwoVarGraph": "Surface graph"
@@ -372,7 +372,7 @@
         "ParsedSuccess": "Parsed to %s formulas"
     },
     {
-        "AddedFormulas": "%s formulas/drawings have been added"
+        "AddedFormulas": "%s items have been added"
     },
     {
         "TextImportQuestion": "You have some text among formulas. \n Do you want to import it also ?"
@@ -441,7 +441,7 @@
         "RecursiveCalcMsg": " During calculation of values or graphing, the editor looks through all the connected formulas like a=b, b=c, c=5. You can also use your own functions. With matrices and vectors it can do the same (not simply numerics calculation, but transformation of arbitrary expressions). "
     },
     {
-        "UnicodeMsg": " You can input any symbol by typing its unicode hexadecimal number. \n For example, type \"2295\" and button with ⊕ symbol appears. "
+        "UnicodeMsg": " You can input any symbol by typing its Unicode hexadecimal number. \n For example, type \"2295\" and button with ⊕ symbol appears. \n It also works for combining symbols like arrow above, etc. "
     },
     {
         "WebappNewAddressMsg": " The editor is changing address. This site will be inaccessible soon. You should export full data until this site stops working. \n New address is "
@@ -570,7 +570,7 @@
         "ExportedNum": "Exported successfully %1$s out of %2$s"
     },
     {
-        "UserFuncExplainMsg": " When you just type \"f()\" it means \"f * ()\": not \"f\" as function. Note that a button will appear to make a function, also when you select some text with empty parentheses. All functions have different font and color compared to variables."
+        "UserFuncExplainMsg": " When you just type \"sin()\" it means \"s*i*n*()\": not \"sin\" as function. \n Note that a button appears to insert function, when you type the first letter of name or the full name. Also when you select some text with empty parentheses. All functions have different font and color compared to variables. "
     },
     {
         "MatrixCannotMult": "Cannot multiply matrices %1$s and %2$s"
@@ -594,7 +594,7 @@
         "ImportNoText": "Empty or not text data in clipboard"
     },
     {
-        "ImportInternalAsk": "Do you want to append new formulas to the existing ones (with positions lost) or overwrite the existing with full data restored ?"
+        "ImportInternalAsk": "Do you want to append new formulas to the existing ones or overwrite the existing with full data restored ?"
     },
     {
         "ImportInternalAppend": "Append"
@@ -651,7 +651,7 @@
         "Graph3DParamSurfaceMsg": " When you graph equations x=… y=… z=… then 3D graph is opened for parametric surface. \n Interval of change for each variable (parameter) is always from 0 to 1. You can add formulas like u=2*π*u₁, then u₁ becomes variable, and u goes from 0 to 2*π. "
     },
     {
-        "GraphXyUserMsg": " When you have a single variable and graph 2 equations \n x=… y=… OR r=… φ=… \n then special graph is opened: parametric equation is case of x,y, or polar coordinates in case of r (radius), φ (angle). Interval of change for variable (parameter) is always from 0 to 1. You can add formulas like u=2*π*u₁, then u₁ becomes variable, and u goes from 0 to 2*π. "
+        "GraphXyUserMsg": " When you have a single variable and graph 2 equations \n x=… y=… OR r=… φ=… \n then the curve is graphed, defined by parametric equation (x,y) or polar coordinates: r (radius), φ (angle). Interval of change for variable (parameter) is always from 0 to 1. You can add formulas like u=2*π*u₁, then u₁ becomes variable, and u goes from 0 to 2*π. "
     },
     {
         "Graph3DXyzMsg": " When you graph a function of free variables x,y,z, \n then special 3D graph is opened with particles scattered over volume of space. Higher concentration of particles means higher value of function. "
@@ -681,7 +681,7 @@
         "ColorFillImageMsg": "No imported images for background"
     },
     {
-        "ColorFillMsg": " Move circles to shift background, or rotate and stretch it. \n Touch a circle to change one of two colors of gradient. "
+        "ColorFillMsg": " There are new circular handlers which you can move to shift background of image/gradient, or rotate and stretch it. \n Touch a circle to change one of two colors of gradient. "
     },
     {
         "Draw": "Drawing"
@@ -714,7 +714,7 @@
         "EditUsualTextMsg": " This is to type text with usual keyboard: \n a comment (ignored in math) or long name of variable. \n This text inside will not be processed as formula. "
     },
     {
-        "InverseFuncMsg": "When you type sin^(-1) it means 1/sin. \n For inverse function use \"arcsin\"."
+        "InverseFuncMsg": "When you type sin⁻¹ it means 1/sin. \n For inverse function use \"arcsin\"."
     },
     {
         "FromAnotherFormula": "Substitution from another formula"
@@ -744,7 +744,7 @@
         "Calculated": "Calculated"
     },
     {
-        "CalculatedCut": "Calculated (reduced precision)"
+        "CalculatedCut": "Calculated (precision %s)"
     },
     {
         "Extracted": "Extracted common part"
@@ -840,13 +840,13 @@
         "GraphsNoFormula": "No formula selected for graph. \n Each formula has button \"Graph\" on the left when you edit it."
     },
     {
-        "DoubleFormula": "You have more than one formula for %s. Must be one."
+        "DoubleFormula": "You have more than one formula for %s. Must be a single one."
     },
     {
-        "GraphsCannotCalcFuncs": "cannot calculate functions %s"
+        "GraphsCannotCalcFuncs": "cannot calculate function \"%s\""
     },
     {
-        "GraphsReqLabelOnLeft": "a formula for graphing may have only single label (e.g. f= or f(x)=) to the left of equals sign (if present). You can graph inequalities producing values 0 or 1."
+        "GraphsReqLabelOnLeft": " a formula for graphing may have only single label (e.g. f= or f(x)=) to the left of equals sign (if present). You can graph inequalities producing values 0 or 1. "
     },
     {
         "GraphsDurCalc": "during calculation of %s"
@@ -858,7 +858,7 @@
         "GraphsIntegralVarError": "graph is not supported when you reference graph variable (%s) inside integral, it can be only as upper bound"
     },
     {
-        "GraphsCmplFunc": " If 'i' is found and a function actually produces complex numbers then it's split to 2 functions: absolute value and argument. Absolute value will define brightness, argument - color/hue (in colored graph), red/blue border corresponds to π/-π. "
+        "GraphsCmplFunc": " If 'i' is found and a function actually produces complex numbers then it's split to 2 functions: absolute value and argument. There is \"Domain coloring\" mode to graph both at the same time. "
     },
     {
         "GraphsReqSingleComplex": " Only single complex function can be graphed. Alternatively you may use Re,Im,arg,|x| functions to convert complex numbers to real one (for all functions producing not real numbers). "
@@ -879,7 +879,7 @@
         "CalcSumRangeLimit2": "for graphs function %1$s can be calculated only with range not more than %2$s"
     },
     {
-        "CalcWrongArgNum": "expected %1$s arguments for function %2$s but given %3$s"
+        "CalcWrongArgNum": "expected %1$s arguments for function \"%2$s\" but given %3$s"
     },
     {
         "WrongNumArgs": "Wrong number of arguments for function %s"
@@ -894,7 +894,7 @@
         "CalcFactNotPos": "factorial is calculated only for not negative integer numbers"
     },
     {
-        "CalcFactTooBig": "cannot calculate factorial for too big number"
+        "CalcFactTooBig": "too big number to calculate factorial"
     },
     {
         "ParseSingleEquals": "cannot have more than one equals (or similar) sign in a single formula"
@@ -951,7 +951,7 @@
         "Cheatsheet": "Cheat sheet"
     },
     {
-        "CheatsheetMsg": "You can tap/click on formula to open wikipedia page \n (if it has a label)"
+        "CheatsheetMsg": "You can tap on a formula to search the web, or open its Wikipedia page (if formula has label)."
     },
     {
         "ComplexNumWarn": " You have results with \"i\" \n or square root of negative number. \n It may mean no solution in \"school math\". "
@@ -1225,5 +1225,53 @@
     },
     {
         "Processing": "Processing data…"
+    },
+    {
+        "InsertFromClipb": "Import from copied"
+    },
+    {
+        "CopyFormulasInBrowserExplain": "To copy formulas in browser, long press on some nearby text, then extend selection to include formula."
+    },
+    {
+        "CopyFormulasInBrowserExplain2": " To copy results back from AI chat, the best is to request the LaTeX of what it wrote. The button to copy the entire response makes partially correct LaTeX. Select and copy usually not works. "
+    },
+    {
+        "WebSearch": "Web Search"
+    },
+    {
+        "SettingExtSearchSite": "Default web search site"
+    },
+    {
+        "OpenedPrevSearch": "Opening previous search \n (nothing selected)"
+    },
+    {
+        "SearchAt": "Search at %s"
+    },
+    {
+        "OpenInBrowser": "Open pages directly in browser/app (no side window)"
+    },
+    {
+        "OpenInMenuItem": "Open in…"
+    },
+    {
+        "GraphsEquation": " In the graph of a generic equation (with 2,3 variables) the initial expression (e.g. x²+y²=1) is converted to the inverse of difference (1/|x²+y²-1|). \n Higher value means closer to equality. If you see distinct thin curves/surfaces, they show the solution of equation. \n Black-and-white mode is auto-enabled for equation (as for inequalities). \n Note however that y=x² is graphed as x². "
+    },
+    {
+        "ImportFormatWebPage": " Copied in browser (HTML). Also in Wikipedia app. Text and formulas will be extracted (not images), but it is not possible for every web page. It will be first converted to LaTeX, which you will be able to view and edit before import. It may look as unformatted text, when parsing is not successful. "
+    },
+    {
+        "ParseError": "error near %s"
+    },
+    {
+        "GraphMarkZero": "Graphs: mark zero with dark blue"
+    },
+    {
+        "FormGrUnits": "Units"
+    },
+    {
+        "WebPage": "Web Page"
+    },
+    {
+        "CustomCombSymExplain": " You have typed a combining symbol (like an arrow above a letter). Now it is not combined, separated. Type a letter before it and put cursor after the combining symbol, the button will appear with combined one. "
     }
 ]

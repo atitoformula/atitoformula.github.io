@@ -132,7 +132,7 @@
         "GameOpenMath": "Equações"
     },
     {
-        "GameEnd": "Terminar Jogo"
+        "GameEnd": "Sair do jogo"
     },
     {
         "GameContinue": "Continuar"
@@ -333,7 +333,7 @@
         "LabelFuncConflict": "%s não pode ser usado como função e como variável normal ao mesmo tempo."
     },
     {
-        "TwoVarGraphExplain": " A cor corresponde ao valor da função e é distribuída entre azul (mín.) e vermelho (máx.). Máx./mín. é calculado apenas sobre a área exibida e mudará quando você mover a área, portanto, as cores também mudarão, sempre de azul para vermelho. \n Para bloquear/fixar cores, pressione o botão \"Cores bloqueadas\" após encontrar uma área com valores máximos/mín. adequados. \n Você também deve tentar o modo \"Ondas\". \n A qualidade do gráfico exibido melhorará gradualmente quando você parar de clicar (tocar na tela). "
+        "TwoVarGraphExplain": " A cor corresponde ao valor da função: de azul (mínimo) a vermelho (máximo). O máximo/mínimo é calculado apenas na área exibida e mudará quando você mover a área; portanto, as cores também mudarão, sempre de azul para vermelho. \n Para fixar as cores, pressione o botão \"Cores bloqueadas\". \n O brilho varia um pouco para marcar os contornos. As linhas azuis escuras mostram valores zero. \n A qualidade melhorará gradualmente quando você não estiver tocando na tela. "
     },
     {
         "TwoVarGraph": "Gráfico de superfície"
@@ -354,7 +354,7 @@
         "ParsedSuccess": "Analisado para %s fórmulas"
     },
     {
-        "AddedFormulas": "%s fórmulas/desenhos foram adicionados"
+        "AddedFormulas": "Foram adicionados %s itens."
     },
     {
         "TextImportQuestion": "Você tem algum texto entre as fórmulas. \n Deseja importá-lo também?"
@@ -423,7 +423,7 @@
         "RecursiveCalcMsg": " Durante o cálculo de valores ou a criação de gráficos, o editor analisa todas as fórmulas conectadas, como a=b, b=c, c=5. Você também pode usar suas próprias funções. Com matrizes e vetores, ele pode fazer o mesmo (não apenas cálculos numéricos, mas também transformações de expressões arbitrárias). "
     },
     {
-        "UnicodeMsg": " Você pode inserir qualquer símbolo digitando seu número hexadecimal Unicode. \n Por exemplo, digite \"2295\" e o botão com o símbolo ⊕ aparecerá. "
+        "UnicodeMsg": " Você pode inserir qualquer símbolo digitando seu número hexadecimal Unicode. \n Por exemplo, digite \"2295\" e o botão com o símbolo ⊕ aparecerá. \n Também funciona para combinar símbolos como a seta acima, etc. "
     },
     {
         "WebappNewAddressMsg": " O editor está mudando de endereço. Este site ficará inacessível em breve. Você deve exportar os dados completos até que este site pare de funcionar. \n O novo endereço é "
@@ -552,7 +552,7 @@
         "ExportedNum": "Exportado com sucesso %1$s de %2$s"
     },
     {
-        "UserFuncExplainMsg": " Quando você digita \"f()\", significa \"f * ()\": não \"f\" como função. Observe que um botão aparecerá para criar uma função, também quando você selecionar algum texto com parênteses vazios. Todas as funções têm fonte e cor diferentes em comparação com as variáveis."
+        "UserFuncExplainMsg": " Quando você digita apenas \"sin()\", significa \"s*i*n*()\", e não \"sin\" como função. Observe que um botão aparece para inserir a função quando você digita a primeira letra do nome ou o nome completo. O mesmo ocorre quando você seleciona um texto com parênteses vazios. Todas as funções têm fonte e cor diferentes em comparação com as variáveis. "
     },
     {
         "MatrixCannotMult": "Não é possível multiplicar as matrizes %1$s e %2$s"
@@ -573,7 +573,7 @@
         "ImportNoText": "Dados vazios ou não textuais na área de transferência"
     },
     {
-        "ImportInternalAsk": "Deseja anexar novas fórmulas às existentes (com posições perdidas) ou substituir as existentes com os dados completos restaurados?"
+        "ImportInternalAsk": "Deseja anexar novas fórmulas às existentes ou substituir as existentes com os dados completos restaurados?"
     },
     {
         "ImportInternalAppend": "Anexar"
@@ -693,7 +693,7 @@
         "EditUsualTextMsg": " Isto serve para digitar texto com o teclado normal: \n um comentário (ignorado em matemática) ou o nome longo da variável. \n Este texto interno não será processado como fórmula. "
     },
     {
-        "InverseFuncMsg": "Quando você digita sin^(-1), significa 1/sin. \n Para a função inversa, use \"arcsin\"."
+        "InverseFuncMsg": "Quando você digita sin⁻¹, significa 1/sin. \n Para a função inversa, use \"arcsin\"."
     },
     {
         "FromAnotherFormula": "Substituição de outra fórmula"
@@ -723,7 +723,7 @@
         "Calculated": "Calculado"
     },
     {
-        "CalculatedCut": "Calculado (precisão reduzida)"
+        "CalculatedCut": "Calculado (precisão %s)"
     },
     {
         "Extracted": "Parte comum extraída"
@@ -822,7 +822,7 @@
         "DoubleFormula": "Você tem mais de uma fórmula para %s. Deve ser um."
     },
     {
-        "GraphsCannotCalcFuncs": "não é possível calcular as funções %s"
+        "GraphsCannotCalcFuncs": "não é possível calcular as funções \"%s\""
     },
     {
         "GraphsReqLabelOnLeft": "uma fórmula para gráficos pode ter apenas um rótulo (por exemplo, f= ou f(x)=) à esquerda do sinal de igual (se presente). YVocê pode representar graficamente desigualdades que produzem valores 0 ou 1."
@@ -858,7 +858,7 @@
         "CalcSumRangeLimit2": "para gráficos, a função %1$s pode ser calculada somente com intervalo não superior a %2$s"
     },
     {
-        "CalcWrongArgNum": "esperava %1$s argumentos para a função %2$s, mas forneceu %3$s"
+        "CalcWrongArgNum": "esperava %1$s argumentos para a função \"%2$s\", mas forneceu %3$s"
     },
     {
         "WrongNumArgs": "Número incorreto de argumentos para a função %s"
@@ -1225,5 +1225,53 @@
     },
     {
         "GameLocked": "É necessário mais ponto (%s)"
+    },
+    {
+        "InsertFromClipb": "Importar de copiado"
+    },
+    {
+        "CopyFormulasInBrowserExplain": "Para copiar fórmulas no navegador, pressione e segure um texto próximo e, em seguida, expanda a seleção para incluir a fórmula."
+    },
+    {
+        "CopyFormulasInBrowserExplain2": " Para copiar os resultados de um chat de IA, o melhor é solicitar o LaTeX do que foi escrito. O botão para copiar a resposta inteira gera um LaTeX parcialmente correto. Selecionar e copiar geralmente não funciona. "
+    },
+    {
+        "WebSearch": "Pesquisa na Web"
+    },
+    {
+        "SettingExtSearchSite": "Site de pesquisa padrão na Web"
+    },
+    {
+        "OpenedPrevSearch": "Abrindo a pesquisa anterior \n (nada selecionado)"
+    },
+    {
+        "SearchAt": "Pesquisar em %s"
+    },
+    {
+        "OpenInBrowser": "Abrir páginas diretamente no navegador/aplicativo (sem janela lateral)"
+    },
+    {
+        "OpenInMenuItem": "Abrir em"
+    },
+    {
+        "GraphsEquation": " No gráfico de uma equação genérica (com 2 ou 3 variáveis), a expressão inicial (por exemplo, x² + y² = 1) é convertida no inverso da diferença (1/|x²+y²-1|). \nUm valor mais alto significa mais próximo da igualdade. Se você vir curvas finas distintas, elas mostram a solução da equação. \nO modo preto e branco é ativado automaticamente para equações (assim como para inequações). \nObserve, no entanto, que y=x² é representado graficamente como x². "
+    },
+    {
+        "ImportFormatWebPage": " Copiado do navegador (HTML). O texto e as fórmulas serão extraídos, mas isso não é possível para todas as páginas da web. Primeiro, ele será convertido para LaTeX, que você poderá visualizar e editar antes da importação. Pode parecer texto sem formatação quando a análise não for bem-sucedida. "
+    },
+    {
+        "ParseError": "erro próximo a %s"
+    },
+    {
+        "GraphMarkZero": "Gráficos: marcar zero com azul escuro"
+    },
+    {
+        "FormGrUnits": "Unidades"
+    },
+    {
+        "WebPage": "Página da Web"
+    },
+    {
+        "CustomCombSymExplain": " Você digitou um símbolo combinatório (como uma seta acima de uma letra). Agora ele não está combinado, está separado. Digite uma letra antes dele e coloque o cursor depois do símbolo combinatório; o botão aparecerá com o símbolo combinado. "
     }
 ]

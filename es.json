@@ -132,7 +132,7 @@
         "GameOpenMath": "Ecuaciones"
     },
     {
-        "GameEnd": "Finalizar Juego"
+        "GameEnd": "Salir del juego"
     },
     {
         "GameContinue": "Continuar"
@@ -333,7 +333,7 @@
         "LabelFuncConflict": "%s no se puede usar como función y como variable habitual al mismo tiempo."
     },
     {
-        "TwoVarGraphExplain": " El color corresponde al valor de la función y se distribuye entre azul (mín.) y rojo (máx.). El máximo/mín. se calcula solo sobre el área mostrada y cambiará al mover el área, por lo que los colores también cambiarán, siempre de azul a rojo. \n Para bloquear/fijar los colores, pulse el botón \"Colores bloqueados\" después de encontrar un área con valores máximos/mín. \n También debería probar el modo \"Ondas\". \n La calidad del gráfico mostrado mejorará gradualmente al dejar de tocar la pantalla. "
+        "TwoVarGraphExplain": " El color corresponde al valor de la función: de azul (mínimo) a rojo (máximo). El valor máximo/mínimo se calcula solo sobre el área mostrada y cambiará al moverla; por lo tanto, los colores también cambiarán, siempre de azul a rojo. \n Para fijar los colores, pulse el botón \"Colores bloqueados\". \n El brillo varía ligeramente para marcar los contornos. Las líneas azul oscuro muestran valores cero. \n La calidad mejorará gradualmente cuando no toque la pantalla. "
     },
     {
         "TwoVarGraph": "Gráfico de superficie"
@@ -354,7 +354,7 @@
         "ParsedSuccess": "Analizado en %s fórmulas"
     },
     {
-        "AddedFormulas": "Se han añadido %s fórmulas/dibujos"
+        "AddedFormulas": "Se han añadido %s artículos"
     },
     {
         "TextImportQuestion": "Tiene texto entre las fórmulas. ¿Desea importarlo también?"
@@ -423,7 +423,7 @@
         "RecursiveCalcMsg": " Durante el cálculo de valores o la representación gráfica, el editor examina todas las fórmulas conectadas, como a=b, b=c, c=5. También puede usar sus propias funciones. Con matrices y vectores, puede hacer lo mismo (no solo cálculos numéricos, sino también la transformación de expresiones arbitrarias). "
     },
     {
-        "UnicodeMsg": " Puede introducir cualquier símbolo escribiendo su número hexadecimal Unicode. \n Por ejemplo, escriba \"2295\" y aparecerá el botón con el símbolo ⊕. "
+        "UnicodeMsg": " Puede introducir cualquier símbolo escribiendo su número hexadecimal Unicode. \n Por ejemplo, escriba \"2295\" y aparecerá el botón con el símbolo ⊕. \n También funciona para combinar símbolos como la flecha hacia arriba, etc. "
     },
     {
         "WebappNewAddressMsg": " El editor está cambiando de dirección. Este sitio será inaccesible pronto. Debe exportar todos los datos hasta que este sitio deje de funcionar. \n La nueva dirección es "
@@ -552,7 +552,7 @@
         "ExportedNum": "Exportado correctamente %1$s de %2$s"
     },
     {
-        "UserFuncExplainMsg": " Al escribir `\"f()\", significa `\"f * ()\": no `\"f\" como función. Tenga en cuenta que aparecerá un botón para crear una función, incluso al seleccionar texto con paréntesis vacíos. Todas las funciones tienen una fuente y un color diferentes en comparación con las variables. "
+        "UserFuncExplainMsg": " Cuando escribes \"sin()\", significa \"s*i*n*()\": no \"sin\" como función. Ten en cuenta que aparece un botón para insertar la función cuando escribes la primera letra del nombre o el nombre completo. También cuando seleccionas un texto con paréntesis vacíos. Todas las funciones tienen una fuente y un color diferentes a los de las variables. "
     },
     {
         "MatrixCannotMult": "No se pueden multiplicar las matrices %1$s y %2$s"
@@ -573,7 +573,7 @@
         "ImportNoText": "Datos vacíos o no textuales en el portapapeles"
     },
     {
-        "ImportInternalAsk": "¿Desea añadir nuevas fórmulas a las existentes (con las posiciones perdidas) o sobrescribir las existentes restaurando todos los datos?"
+        "ImportInternalAsk": "¿Desea añadir nuevas fórmulas a las existentes o sobrescribir las existentes restaurando todos los datos?"
     },
     {
         "ImportInternalAppend": "Añadir"
@@ -693,7 +693,7 @@
         "EditUsualTextMsg": " Esto es para escribir texto con el teclado habitual: \n un comentario (ignorado en matemáticas) o el nombre largo de la variable. \n Este texto no se procesará como fórmula. "
     },
     {
-        "InverseFuncMsg": "Al escribir sin^(-1), significa 1/sin. \n Para la función inversa, use \"arcsin\"."
+        "InverseFuncMsg": "Al escribir sin⁻¹, significa 1/sin. \n Para la función inversa, use \"arcsin\"."
     },
     {
         "FromAnotherFormula": "Sustitución de otra fórmula"
@@ -723,7 +723,7 @@
         "Calculated": "Calculado"
     },
     {
-        "CalculatedCut": "Calculado (precisión reducida)"
+        "CalculatedCut": "Calculado (precisión %s)"
     },
     {
         "Extracted": "Parte común extraída"
@@ -822,7 +822,7 @@
         "DoubleFormula": "Tiene más de una fórmula para %s. Debe ser uno."
     },
     {
-        "GraphsCannotCalcFuncs": "No se pueden calcular las funciones %s"
+        "GraphsCannotCalcFuncs": "No se pueden calcular las funciones \"%s\""
     },
     {
         "GraphsReqLabelOnLeft": "Una fórmula para graficar solo puede tener una etiqueta (p. ej., f= o f(x)=) a la izquierda del signo igual (si está presente). YSe pueden graficar desigualdades que produzcan valores 0 o 1."
@@ -858,7 +858,7 @@
         "CalcSumRangeLimit2": "Para gráficos, la función %1$s solo se puede calcular con un rango inferior a %2$s"
     },
     {
-        "CalcWrongArgNum": "Se esperaban %1$s argumentos para la función %2$s, pero se proporciona %3$s"
+        "CalcWrongArgNum": "Se esperaban %1$s argumentos para la función \"%2$s\", pero se proporciona %3$s"
     },
     {
         "WrongNumArgs": "Número incorrecto de argumentos para la función %s"
@@ -1225,5 +1225,53 @@
     },
     {
         "GameLocked": "Se requieren más puntos (%s)"
+    },
+    {
+        "InsertFromClipb": "Importar desde copiado"
+    },
+    {
+        "CopyFormulasInBrowserExplain": "Para copiar fórmulas en el navegador, mantenga pulsado un texto cercano y, a continuación, extienda la selección para incluir la fórmula."
+    },
+    {
+        "CopyFormulasInBrowserExplain2": " Para copiar los resultados del chat de IA, lo mejor es solicitar el código LaTeX que escribió. El botón para copiar la respuesta completa genera un código LaTeX parcialmente correcto. Seleccionar y copiar generalmente no funciona. "
+    },
+    {
+        "WebSearch": "Búsqueda web"
+    },
+    {
+        "SettingExtSearchSite": "Sitio de búsqueda web predeterminado"
+    },
+    {
+        "OpenedPrevSearch": "Abriendo la búsqueda anterior \n (sin nada seleccionado)"
+    },
+    {
+        "SearchAt": "Buscar en %s…"
+    },
+    {
+        "OpenInBrowser": "Abrir páginas directamente en el navegador/aplicación (sin ventana lateral)"
+    },
+    {
+        "OpenInMenuItem": "Abrir en"
+    },
+    {
+        "GraphsEquation": " En la gráfica de una ecuación genérica (con 2 o 3 variables), la expresión inicial (p. ej., x²+y²=1) se convierte en la inversa de la diferencia. (1/|x²+y²-1|). \n Un valor más alto indica una mayor proximidad a la igualdad. Si observa curvas finas bien definidas, estas muestran la solución de la ecuación. \n El modo blanco y negro se activa automáticamente para la ecuación (al igual que para las desigualdades). \n Tenga en cuenta que y=x² se representa gráficamente como x². "
+    },
+    {
+        "ImportFormatWebPage": " Copiado del navegador (HTML). Se extraerán el texto y las fórmulas, pero esto no es posible para todas las páginas web. Primero se convertirá a LaTeX, que podrá visualizar y editar antes de importarlo. Si el análisis falla, puede aparecer como texto sin formato. "
+    },
+    {
+        "ParseError": "Error cerca de %s"
+    },
+    {
+        "GraphMarkZero": "Gráficos: marcar cero con azul oscuro"
+    },
+    {
+        "FormGrUnits": "Unidades"
+    },
+    {
+        "WebPage": "Página web"
+    },
+    {
+        "CustomCombSymExplain": " Has escrito un símbolo de combinación (como una flecha sobre una letra). Ahora no está combinado, sino separado. Escribe una letra antes y coloca el cursor después del símbolo de combinación; el botón aparecerá con la letra combinada. "
     }
 ]

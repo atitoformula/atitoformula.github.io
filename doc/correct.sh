@@ -1,8 +1,10 @@
-cat en.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g' > out && cat out > en.html
-cat ru.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g' > out && cat out > ru.html
-cat es.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g' > out && cat out > es.html
-cat pt.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g' > out && cat out > pt.html
+cat en.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g; s/padding:72pt 72pt 72pt 54pt/padding:5pt 5pt 5pt 5pt/g' > out && cat out > en.html
+cat ru.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g; s/padding:72pt 72pt 72pt 54pt/padding:5pt 5pt 5pt 5pt/g' > out && cat out > ru.html
+cat es.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g; s/padding:72pt 72pt 72pt 54pt/padding:5pt 5pt 5pt 5pt/g' > out && cat out > es.html
+cat pt.html | sed -E 's/href="[^"]*github.io([^&"]*)[^"]*"/href="..\1"/g; s/padding:72pt 72pt 72pt 54pt/padding:5pt 5pt 5pt 5pt/g' > out && cat out > pt.html
 cat ru.html | sed -E 's/images\//images_ru\//g' > out && cat out > ru.html
+cat es.html | sed -E 's/images\//images_es\//g' > out && cat out > es.html
+cat pt.html | sed -E 's/images\//images_pt\//g' > out && cat out > pt.html
 
 perl -C -MHTML::Entities -pe 'decode_entities($_);' ru.html > out && cat out > ru.html
 

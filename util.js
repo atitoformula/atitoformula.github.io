@@ -1,18 +1,23 @@
-function analytics(eventn,params) {
+
+function analytics(eventn, params) {
     try {
-        if(params === undefined) {
-            ym(98874513, "params", { [eventn] : "" })
-        } else {
-            const p = JSON.parse(params)
-            //console.log(p)
-            ym(98874513, "params", { [eventn] : p })
+        let p = {};
+
+        if (params !== undefined) {
+            p = JSON.parse(params);
         }
+
+        gtag('event', eventn, p);
+
     } catch(error) {
-        console.error(error)
+        console.error(error);
+
         try {
-           ym(98874513, "params", { "metr_error" : eventn.replace(/[^\x00-\x7F]/g, '').substring(0, 15) })
+            gtag('event', 'metr_error', {
+                error_event: eventn.replace(/[^\x00-\x7F]/g, '').substring(0, 15)
+            });
         } catch(error) {
-            console.error(error)
+            console.error(error);
         }
     }
 }

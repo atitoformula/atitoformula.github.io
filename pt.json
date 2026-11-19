@@ -15,7 +15,7 @@
         "CopyCoor": "Copiar coordenada"
     },
     {
-        "CopyFormatMsg": " Caso precise copiar e colar em outro aplicativo, \n o editor usará o formato de texto curto por padrão. \n Nas configurações, ele pode ser alterado para LaTeX. \n Ctrl+Shift+C criará uma imagem. "
+        "CopyFormatMsg": " Ao selecionar e pressionar copiar (sem exportar), o editor também copia para a área de transferência do sistema, mas não usa LaTeX por padrão. \n Nas configurações, ele pode ser alterado para LaTeX. \n Ctrl+Shift+C criará uma imagem. "
     },
     {
         "PasteFormatMsg": " Caso precise colar fórmulas ou texto de outro aplicativo facilmente, use Ctrl+Shift+V. \n O editor tentará determinar o formato das fórmulas automaticamente (ou as inserirá como texto comum). \n Alternativamente, use a importação no menu com o formato selecionado manualmente. \n O navegador pode solicitar permissão adicional para acessar os dados na área de transferência. "
@@ -297,7 +297,7 @@
         "HelpVideo": "Guias em vídeo (Youtube)"
     },
     {
-        "HelpVideoMl": "<![CDATA[Guias em vídeo <font color=\"%s\"><small><small><br/><b>Youtube</b></small></small></font>]]>"
+        "VideoGuides": "Guias em vídeo"
     },
     {
         "ErrorTmpt": "ERRO\n\n %s"
@@ -316,6 +316,9 @@
     },
     {
         "UnknownErrorGr": "Erro desconhecido ao preparar gráficos"
+    },
+    {
+        "OutOfMemoryErr": "Memória insuficiente para realizar a operação"
     },
     {
         "ExpImExplain": "Observe que os símbolos 'e' e 'i' são processados pelo editor como constantes: função exponencial e unidade imaginária, respectivamente.\n Isso pode ser alterado nas configurações."
@@ -342,7 +345,7 @@
         "TooManyVarsTwoVar": "No caso de duas variáveis, você também pode ver uma representação colorida da superfície (uma alternativa mais simples ao gráfico 3D), se for o que você precisa agora."
     },
     {
-        "DefXVar": "x,y são variáveis padrão em gráficos, todas as outras são parâmetros \n (podem ser alteradas nas configurações)"
+        "DefXVar": "x,y,z são variáveis padrão em gráficos, todas as outras são parâmetros \n (podem ser alteradas nas configurações)"
     },
     {
         "FormulaForXWarning": " Você tem a fórmula x=… \n Neste caso, 'x' não pode ser a variável principal do gráfico. Talvez não seja o que você deseja. \n Para evitar esta mensagem, desative 'x' como variável padrão nas configurações. \n Note que, para qualquer outra variável, essas fórmulas (definições) podem afetar gráficos e cálculos. "
@@ -358,6 +361,9 @@
     },
     {
         "TextImportQuestion": "Você tem algum texto entre as fórmulas. \n Deseja importá-lo também?"
+    },
+    {
+        "ImportCanvasReadonlyMsg": "Não é possível importar novos dados quando a tela principal não está aberta"
     },
     {
         "MatricesCalc": "Cálculos de matrizes (funções expandidas)"
@@ -411,7 +417,7 @@
         "VertScreenMsg": " Este editor espera que você segure seu dispositivo horizontalmente (tente girá-lo). "
     },
     {
-        "AutocomplMsg": " O editor sempre analisa o que você acabou de digitar (ou selecionar) e sugere mais opções que aparecem à esquerda e à direita, corrigindo o que foi digitado antes. \n Digite a primeira letra do que você precisa ou um símbolo semelhante. \n Para símbolos raros, digite o nome completo em LaTeX. "
+        "AutocomplMsg": " O editor sempre analisa o que você acabou de digitar (ou selecionar) e sugere mais opções que aparecem à esquerda e à direita, corrigindo o que foi digitado antes. \n Digite a primeira letra do que você precisa ou um símbolo semelhante. \n Para símbolos raros, digite o nome completo em LaTeX o número HEX Unicode. "
     },
     {
         "FastAccessMsg": " Entre todas as fórmulas que você digitou \n o editor está procurando por símbolos que são difíceis de digitar novamente: \n eles são adicionados no canto inferior direito para acesso rápido. "
@@ -442,6 +448,9 @@
     },
     {
         "Split": "Split"
+    },
+    {
+        "Connect": "Unir"
     },
     {
         "MakeSystem": "Criar sistema"
@@ -499,6 +508,12 @@
     },
     {
         "SecondCursor": "Edição em dois lugares ao mesmo tempo.\n Digite algum nome de variável."
+    },
+    {
+        "ReplaceAllTypeNewCount": "Digite um novo nome para |Encontrado: %1$s"
+    },
+    {
+        "ReplaceAllMsgCount": "Substituir tudo | por | Encontrado: %1$s"
     },
     {
         "Cancel": "Cancelar"
@@ -693,7 +708,7 @@
         "EditUsualTextMsg": " Isto serve para digitar texto com o teclado normal: \n um comentário (ignorado em matemática) ou o nome longo da variável. \n Este texto interno não será processado como fórmula. "
     },
     {
-        "InverseFuncMsg": "Quando você digita sin⁻¹, significa 1/sin. \n Para a função inversa, use \"arcsin\"."
+        "InverseFuncMsg": "Quando você digita sin⁻¹, significa 1/sin. \n Para a função inversa, use \"arcsin\". O mesmo se aplica às outras funções."
     },
     {
         "FromAnotherFormula": "Substituição de outra fórmula"
@@ -708,7 +723,7 @@
         "FormulaForLabel": "Movido e agrupado %s no lado esquerdo"
     },
     {
-        "FormulaForLabelSolved": "Resolvido para %s"
+        "FormulaForLabelSolved": "Despejar %s"
     },
     {
         "Factoring": "Fatoração"
@@ -795,7 +810,7 @@
         "MultSymMsg": "O símbolo de multiplicação é necessário apenas entre números. Pressione o botão duas vezes para inserir o ponto."
     },
     {
-        "GoogleSearchMsg": " O Google pode resolver muitas tarefas matemáticas ou direcioná-lo a outros sites de resolução. O editor fará uma solicitação de pesquisa a partir do que você selecionou e abrirá o navegador. Experimente sites diferentes, nem todos conseguem entender as solicitações. "
+        "GoogleSearchMsg": "Kon ang editor indi makasolbar sang isa ka butang, nian mahimo ini ipasa sa iban nga pagpangita, mga site sang solver ukon mga chat sang AI. \nPilia ang paborito sa mga setting."
     },
     {
         "DarkBright": " (escuro para claro)"
@@ -867,13 +882,16 @@
         "CalcNoComplex": "não é possível calcular a função %1$s quando %2$s é complexa número"
     },
     {
-        "CalcNoComplex2": "número complexo para %s dentro de uma função que processa apenas números reais"
+        "CalcNoComplex2": "número complexo para %1$s dentro de uma função %2$s que processa apenas números reais"
     },
     {
         "CalcFactNotPos": "o fatorial é calculado apenas para números inteiros não negativos"
     },
     {
         "CalcFactTooBig": "não é possível calcular o fatorial para um número muito grande"
+    },
+    {
+        "CalcRecursion": "limite de recursão excedido; provavelmente recursão infinita"
     },
     {
         "ParseSingleEquals": "não pode haver mais de um sinal de igual (ou similar) em uma única fórmula"
@@ -990,7 +1008,7 @@
         "SettingAssumeX": "Assuma x,y como variáveis padrão em gráficos"
     },
     {
-        "SettingNewFormulaDef": "Criar nova fórmula por padrão"
+        "SettingNewFormulaDef": "Criar nova fórmula por padrão (ao substituir parte dela)"
     },
     {
         "SettingGrid": "Mostrar grade"
@@ -1179,7 +1197,10 @@
         "WebappLinkMsg2": " mas para dispositivos Android, é melhor usar este aplicativo. "
     },
     {
-        "WebappSuggButton": " <![CDATA[Aplicativo Web<font color=\"%s\"><small><small><br/><b>para laptop/PC com teclado</b></small></small></font>]]> "
+        "WebappSuggButton1": "Aplicativo Web"
+    },
+    {
+        "WebappSuggButton2": "para laptop/PC com teclado"
     },
     {
         "GraphsCopyImage": "Copiar imagem"
@@ -1197,7 +1218,7 @@
         "CouldnotSaveError": "Não foi possível salvar os dados. Provavelmente você atingiu o limite de dados salvos. Você também deve tentar recarregar o aplicativo e tentar novamente."
     },
     {
-        "Processing": "Processamento de dados…"
+        "Processing": "Processando dados…"
     },
     {
         "ImportNoImage": "Nenhuma imagem foi encontrada na área de transferência (ou não pode ser processada)"
@@ -1236,7 +1257,7 @@
         "CopyFormulasInBrowserExplain2": " Para copiar os resultados de um chat de IA, o melhor é solicitar o LaTeX do que foi escrito. O botão para copiar a resposta inteira gera um LaTeX parcialmente correto. Selecionar e copiar geralmente não funciona. "
     },
     {
-        "WebSearch": "Pesquisa na Web"
+        "WebSearch": "Busca web"
     },
     {
         "SettingExtSearchSite": "Site de pesquisa padrão na Web"

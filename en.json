@@ -15,7 +15,7 @@
         "CopyCoor": "Copy coord."
     },
     {
-        "CopyFormatMsg": " In case if you need to copy and paste to another app, \n then editor will use short text format by default. \n In settings it can be changed to LaTeX. \n Ctrl+Shift+C will make image. "
+        "CopyFormatMsg": " When you select and press copy (without export) the editor also copies to system clipboard, but not uses LaTeX by default. \n In settings it can be changed to LaTeX. \n Ctrl+Shift+C will make and copy image. "
     },
     {
         "PasteFormatMsg": " In case if you need to easily paste formulas or text from another app, use Ctrl+Shift+V. \n Editor will try to determine the format of formulas automatically (or will insert as common text). \n Alternatively, use import in menu with manually selected format. \n Browser may ask for additional permission to access data in clipboard. "
@@ -315,7 +315,7 @@
         "HelpVideo": "Video guides (Youtube)"
     },
     {
-        "HelpVideoMl": "<![CDATA[Video guides <font color=\"%s\"><small><small><br/><b>Youtube</b></small></small></font>]]>"
+        "VideoGuides": "Video guides"
     },
     {
         "ErrorTmpt": "ERROR\n\n %s"
@@ -334,6 +334,9 @@
     },
     {
         "UnknownErrorGr": "Error while preparing graphs"
+    },
+    {
+        "OutOfMemoryErr": "Not enough memory to perform the operation. \n If editor starts working slow, go Menu -> Exit and start again."
     },
     {
         "ExpImExplain": "Note that symbols 'e' and 'i' are processed by editor as constants: exponential function and imaginary unit respectively.\n It can be changed in settings."
@@ -360,13 +363,13 @@
         "TooManyVarsTwoVar": "In case of two variables you can also see a colored representation of surface (and 3D graph) if that is what you need now."
     },
     {
-        "DefXVar": "x,y are default variables in graphs, all others are parameters \n (it can be changed in settings)"
+        "DefXVar": "x,y,z are default variables in graphs, all others are parameters \n (it can be changed in settings)"
     },
     {
         "FormulaForXWarning": " You have formula x=… \n In this case 'x' cannot be the main variable for graph. Maybe not what you want. \n To avoid this message, disable 'x' as default variable in settings. \n Note that for any other variable such formulas-definitions may affect graphs and calculations. "
     },
     {
-        "TooManyVars": " You have %1$s variables with not specified values:\n %2$s.\n For usual graphs you need to leave just one variable, others must have formulas like \"%3$s=1\" with initial default value (or reference suchlike). Editor scans all references in formulas to each other. "
+        "TooManyVars": " You have %1$s variables with no specified values:\n %2$s.\n For usual graphs you need to leave just one variable, others must have formulas like \"%3$s=1\" with initial default value (or reference suchlike). Editor scans all references in formulas to each other. x,y are variables by default. "
     },
     {
         "ParsedSuccess": "Parsed to %s formulas"
@@ -376,6 +379,9 @@
     },
     {
         "TextImportQuestion": "You have some text among formulas. \n Do you want to import it also ?"
+    },
+    {
+        "ImportCanvasReadonlyMsg": "Cannot import new data when main canvas is not opened"
     },
     {
         "MatricesCalc": "Matrices calculations (expanded functions)"
@@ -429,7 +435,7 @@
         "VertScreenMsg": " This editor expects you to hold your device horizontally (try rotate it). "
     },
     {
-        "AutocomplMsg": " Editor always looks at what you've just typed (or selected) and suggests more options appearing on left and right correcting what is typed before. \n Type the first letter of what you need, or a similar symbol. \n For rare symbols type its entire name in LaTeX. "
+        "AutocomplMsg": " Editor always looks at what you've just typed (or selected) and suggests more options appearing on left and right correcting what is typed before. \n Type the first letter of what you need, or a similar symbol. \n For rare symbols type its entire name in LaTeX or unicode HEX number. "
     },
     {
         "FastAccessMsg": " Among all formulas you typed \n the editor is searching for symbols that are hard to type again: \n they are added at right-bottom for fast access. "
@@ -460,6 +466,9 @@
     },
     {
         "Split": "Split"
+    },
+    {
+        "Connect": "Join"
     },
     {
         "MakeSystem": "Make system"
@@ -517,6 +526,12 @@
     },
     {
         "SecondCursor": "Editing in two places at once.\n Type some name of variable."
+    },
+    {
+        "ReplaceAllTypeNewCount": "Type new name for |Found: %1$s"
+    },
+    {
+        "ReplaceAllMsgCount": "Replace All | by |Found: %1$s"
     },
     {
         "Cancel": "Cancel"
@@ -714,7 +729,7 @@
         "EditUsualTextMsg": " This is to type text with usual keyboard: \n a comment (ignored in math) or long name of variable. \n This text inside will not be processed as formula. "
     },
     {
-        "InverseFuncMsg": "When you type sin⁻¹ it means 1/sin. \n For inverse function use \"arcsin\"."
+        "InverseFuncMsg": "When you type sin⁻¹ it means 1/sin. \n For inverse function use \"arcsin\". The same applies to the other functions."
     },
     {
         "FromAnotherFormula": "Substitution from another formula"
@@ -816,7 +831,7 @@
         "MultSymMsg": "Multiply symbol is needed only between numbers. \n Press the button two times to insert dot."
     },
     {
-        "GoogleSearchMsg": " Google can solve many math tasks, or lead you to other solver sites. Editor will make search request from what you've selected, and will open browser. Try different sites, not all of them can understand various requests. "
+        "GoogleSearchMsg": " If editor cannot solve something, then it can be passed to other search, solver sites or AI chats. Choose favorite one in settings. "
     },
     {
         "DarkBright": " (dark to bright)"
@@ -888,13 +903,16 @@
         "CalcNoComplex": "cannot calculate function %1$s when %2$s is complex number"
     },
     {
-        "CalcNoComplex2": "complex number for %s inside function that can process only real numbers"
+        "CalcNoComplex2": "complex number for %1$s inside function %2$s that can process only real numbers"
     },
     {
         "CalcFactNotPos": "factorial is calculated only for not negative integer numbers"
     },
     {
         "CalcFactTooBig": "too big number to calculate factorial"
+    },
+    {
+        "CalcRecursion": "exceeded recursion limit, probably infinite recursion"
     },
     {
         "ParseSingleEquals": "cannot have more than one equals (or similar) sign in a single formula"
@@ -1011,7 +1029,7 @@
         "SettingAssumeX": "Assume x,y as default variables in graphs?"
     },
     {
-        "SettingNewFormulaDef": "Create new formula by default"
+        "SettingNewFormulaDef": "Create a new formula by default (when replacing its part)"
     },
     {
         "SettingGrid": "Show grid"
@@ -1206,7 +1224,10 @@
         "WebappLinkMsg2": " but for Android devices you better use this app. "
     },
     {
-        "WebappSuggButton": " <![CDATA[Web App<font color=\"%s\"><small><small><br/><b>for laptop/PC with keyboard</b></small></small></font>]]> "
+        "WebappSuggButton1": "Web App"
+    },
+    {
+        "WebappSuggButton2": "for laptop/PC with keyboard"
     },
     {
         "GraphsCopyImage": "Copy image"
